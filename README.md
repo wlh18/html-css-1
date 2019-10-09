@@ -16,10 +16,11 @@ We create an HTML file by ending the name of the file with a `.html` extension. 
 
 HTML is based around using "tags" to create HTML **elements**.
 
+
 ```html
-//this is an HTML element
     <tagname>content</tagname>
 ```
+>this is an HTML element
 
 Above we have the basic syntax structure for an HTML tag.
 

@@ -8,7 +8,7 @@
 
 ## HTML
 
-HTML stands for Hyper Text Markup Language. It is one of the building block languages of the web that will establish the infrastructure of our web pages. HTML is NOT a programming language, it is considered a "markup" language. HTML does not contain logic, and it contains very little native styling. HTML is used to declare the structure of the contents of a page. 
+HTML stands for Hyper Text Markup Language. It is one of the building block languages of the web that will establish the infrastructure of our web pages. HTML is **NOT** a programming language; HTML is considered a "markup" language. HTML does not contain logic, and it contains very little native styling. HTML is used to declare the structure of the contents of a page. 
 
 We create an HTML file by ending the name of the file with a `.html` extension. This will tell our browswer and code editors to read the file as HTML. It's important to note that `index.html` is a common name used with the root HTML file since the browser looks for files called `index` by default.
 

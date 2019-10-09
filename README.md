@@ -8,7 +8,9 @@
 
 ## HTML
 
-HTML stands for Hyper Text Markup Language. It is one of the building block languages of the web that will establish the infrastructure of our web pages. HTML is **NOT** a programming language; HTML is considered a "markup" language. HTML does not contain logic, and it contains very little, if any, native styling. HTML is used to declare the structure of the contents of a page. CSS and JavaScript are the languages we will use to bring our webpages to life. Check out this visual example of what each does: 
+HTML stands for Hyper Text Markup Language. It is one of the building block languages of the web that will establish the infrastructure of our web pages. HTML is **NOT** a programming language; HTML is considered a "markup" language. HTML does not contain logic, and it contains very little, if any, native styling. HTML is used to declare the structure of the contents of a page. CSS and JavaScript are the languages we will use to bring our webpages to life. 
+
+Check out this visual example of what HTML, CSS, and JavaScript do respectively: 
 
 ![deadpool-HTML-CSS-JS](images/deadpool-HTML-CSS-JS.gif)
 

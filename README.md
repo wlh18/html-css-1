@@ -22,7 +22,6 @@ HTML is based around using "tags" to create HTML **elements**.
 ```html
     <thisisatag>I'm the content</thisisatag>
 ```
->this is an HTML element
 
 Above we have the basic syntax structure for an HTML tag.
 

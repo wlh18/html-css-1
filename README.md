@@ -48,7 +48,7 @@ Check out this visual analogy of what HTML, CSS, and JavaScript do respectively:
 
 
 ### Making an HTML File
-We can create an HTML file by ending the name of the file with a `.html` extension. This will tell our browswer and code editors to read the file as HTML. It's important to note that `index.html` is a common name used with the root HTML file since the browser looks for files called `index` by default.
+We can create an HTML file by ending the name of the file with a `.html` extension. This will tell our browser and code editors to read the file as HTML. Note that `index.html` is the standard name for a root HTML file since the browser looks for files called `index` by default.
 
 ### Syntax Overview
 
@@ -59,14 +59,14 @@ HTML is based around using "tags" to create HTML **elements**.
     <thisisatag>This is the "content"</thisisatag>
 ```
 
-Above we have the basic syntax structure for an HTML tag.
+Above we can see the basic syntax of an HTML tag, or element.
 
-1. We first have the tag itself, the tag uses `<>` angle brackets to declare that it is an HTML tag.
-2. The tag comes in a pair, an opening and closing tag. The closing tag begins with a `</>` to declare that it is ending the HTML tag.
-3. Between the angle brackets is where we will decide what tag we are using.
-4. We wrap the tags around the content that we want stored inside that HTML element.
+1. First is the "tag" itself. We declare HTML tags using angle brackets `<>`, with the name for the tag contained within the `<>` brackets.
+2. Most HTML tags come in pairs of opening and closing tags. The closing tag begins with a `/` immediately after the first angle bracket to indicate that it is corresponding closing pair of the HTML tag.
+3. Between the angle brackets is where we specify the type of tag we are using.
+4. We wrap the tags around the **content** that we want stored inside that HTML element or tag.
 
-Some tags can be self closing or `void`.
+>Note: Some elements are called "self-closing" or "void" elements because they should not be written in pairs. This is because they are not designed to contain content. See the example below: 
 
 ```html
     <input />

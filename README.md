@@ -4,6 +4,38 @@
 1. [HTML/CSS I Mini Project](#HTMLCSS-I-Mini-Project)
 1. [HTML/CSS I Afternoon Project](#HTMLCSS-I-Afternoon-Project)
 
+## Student Learning Objectives
+
+### HTML`123490-
+
+* Student can describe what HTML is
+* Student can use the head tag to insert meta information about the page
+* Student can change the title and icon of their webpage
+* Student can use the body tag to specify what will be displayed
+* Student can use div, p, h1-h6, and span tags to layout a flow of information
+* Student can use ol, ul, and li tags
+* Student can use nav, footer, and header tags
+* Student can use img tags to bring in pictures
+* Student can use a tags to route to another webpage
+* Student can use link tags to bring in CSS files
+* Student can describe the box-model
+* Student can explain box-sizing: border-box
+* Student can use and describe inline, inline-block, and block elements
+* Student can use the class and id properties
+
+### CSS
+
+* Student can describe what CSS is
+* Student can apply properties to an element, class, and id
+* Student can use the font and color properties
+* Student can use text-align property
+* Student can use background property to give colors or images for backgrounds
+* Student can use height, width, margin, padding, and box-sizing properties
+* Student can use the float property
+* Student can use and describe a reset file
+* Student can bring in a new font into a project
+
+
 # HTML/CSS I Lecture Notes
 
 ## HTML

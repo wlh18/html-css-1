@@ -1,12 +1,10 @@
-# Sections
+# Lesson Sections
 
 1. [HTML/CSS I Lecture Notes](#HTML/CSS-I)
 1. [HTML/CSS I Mini Project](#HTML/CSS-I-Mini-Project)
 1. [HTML/CSS I Afternoon Project](#HTML/CSS-I-Afternoon-Project)
 
-
-
-# HTML/CSS I
+# HTML/CSS I Lecture Notes
 
 ## HTML
 
@@ -16,9 +14,10 @@ We create an HTML file by ending the name of the file with a `.html` extension. 
 
 ### Syntax Overview
 
-HTML is based around using `tags` to establish an element.
+HTML is based around using "tags" to create HTML **elements**.
 
 ```html
+//this is an HTML element
     <tagname>content</tagname>
 ```
 

@@ -633,8 +633,8 @@ The content of an element is anything inside of an element such as text, images,
 
 # HTML/CSS I Mini Project
 
-https://github.com/DevMountain/sql-1-mini
+
 
 # HTML/CSS I Afternoon Project
 
-https://github.com/DevMountain/sql-1-afternoon
+

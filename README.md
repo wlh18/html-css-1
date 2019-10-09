@@ -75,7 +75,7 @@ Above we can see the basic syntax of an HTML tag, or element.
 
 
 
-Notice how there is only one tag and it uses a forward slash at the ending of the tag.
+>Notice that there is only one tag, and it uses a forward slash at the ending of the tag.
 
 ### Basic HTML Structure
 

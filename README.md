@@ -48,7 +48,9 @@ Check out this visual analogy of what HTML, CSS, and JavaScript do respectively:
 
 
 ### Making an HTML File
-We can create an HTML file by ending the name of the file with a `.html` extension. This will tell our browser and code editors to read the file as HTML. Note that `index.html` is the standard name for a root HTML file since the browser looks for files called `index` by default.
+We can create an HTML file by ending the name of the file with a `.html` extension. This will tell our browser and code editors to read the file as HTML. 
+
+>Note: `index.html` is the standard name for a root HTML file since the browser looks for files called `index` by default.
 
 ### Syntax Overview
 

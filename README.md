@@ -79,6 +79,8 @@ Above we can see the basic syntax of an HTML tag, or element.
 
 ### Basic HTML Structure
 
+Here's an example of a basic HTML page's structure: 
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -91,7 +93,7 @@ Above we can see the basic syntax of an HTML tag, or element.
 </html>
 ```
 
-Lets breakdown the structure from above:
+Now, let's break down the structure seen above.
 
 `<!DOCTYPE html>` - This tag is pretty unique, it's not an HTML element, it's more of a declaration to the browser to inform it what version of HTML we are using. NOTE: it's important to note that this needs to be the very first tag in our HTML file.
 

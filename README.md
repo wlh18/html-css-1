@@ -6,7 +6,7 @@
 
 ## Student Learning Objectives
 
-### HTML`123490-
+### HTML
 
 * Student can describe what HTML is
 * Student can use the head tag to insert meta information about the page

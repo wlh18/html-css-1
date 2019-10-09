@@ -20,7 +20,7 @@ HTML is based around using "tags" to create HTML **elements**.
 
 
 ```html
-    <thisisatag>I'm the content</thisisatag>
+    <thisisatag>This is the "content"</thisisatag>
 ```
 
 Above we have the basic syntax structure for an HTML tag.

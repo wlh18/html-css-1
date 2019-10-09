@@ -20,7 +20,7 @@ HTML is based around using "tags" to create HTML **elements**.
 
 
 ```html
-    <tagname>content</tagname>
+    <thisisatag>I'm the content</thisisatag>
 ```
 >this is an HTML element
 

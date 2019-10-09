@@ -73,13 +73,11 @@ Above we can see the basic syntax of an HTML tag, or element.
     <input />
 ```
 
-
-
 >Notice that there is only one tag, and it uses a forward slash at the ending of the tag.
 
 ### Basic HTML Structure
 
-Here's an example of a basic HTML page's structure: 
+Here's an example of a basic HTML page structure: 
 
 ```html
 <!DOCTYPE html>
@@ -95,44 +93,45 @@ Here's an example of a basic HTML page's structure:
 
 Now, let's break down the structure seen above.
 
-`<!DOCTYPE html>` - This tag is pretty unique, it's not an HTML element, it's more of a declaration to the browser to inform it what version of HTML we are using. NOTE: it's important to note that this needs to be the very first tag in our HTML file.
+`<!DOCTYPE html>` - This tag is pretty unique, and it's actually not an HTML element; it's an instruction to your web browser so that it knows what type of file to expect. 
+>NOTE: Always make sure that this is the first declaration in your HTML document, otherwise your page may not work.
 
-`<html>` - The html tag tells the browser that everything inside should be read as html and will act as the root tag for our file. (meaning everything will go in here). We have also added an attribute to the tag to declare what language we are using. We will talk about attributes later on in the notes.
+`<html>` - The html tag tells the browser that everything contained inside the tag should be read as html. We can use the `lang` "attribute" to specify the human language that the contents are written in. This element will act as the root tag for our file, which means that everything will be contained inside of this tag. 
 
-`<head>` - The head tag is a container used to contain metadata (data about data). Metadata usually defines the title of the document, character set, etyc. Metadata is not displayed to the web page.
+`<head>` - The head tag is a container used to contain "metadata" (data about data). Metadata is what is used to define the title of the document, character set, and other details that are relevant for accessibility and SEO. Metadata is not displayed on the web page for the user.
 
-`<title>` - This is a metadata tag that will provide the title of our document.
+`<title>` - This is a metadata tag that will contain the title of our document.
 
 `<body>` - The body tag is the container for all the elements that will make up our web page. Everything inside of our body tag will be displayed to the web page. This is where we will store our elements such as divs, spans, hyperlinks, text, etc.
 
 ### Comments In HTML
 
-We can write comments in our code to help clarify things in the development environment. Comments will not appear in the browser.
+We can write comments in our code to help clarify what's going on in the development environment. Comments will not appear in the browser, so they're not intended to be used for users. Comments are an excellent way to communicate with other developers, and even our future selves, what's supposed to be going on in our code.
 
-We will begin a comment with `<!--` and end the comment with `-->`.
+Comments begin with `<!--` and close with `-->`.
 
 ```html
 <body>
-    <!-- This is a comment and will not be parsed to the browser -->
+    <!-- This is a comment that will not be displayed on the web page -->
 </body>
 ```
 
-### MetaTags
+### Meta Tags
 
-Meta tags give overall information about your site that is used by search engines to search and display your website in their page rank algorithim.
+Meta tags are a place to provide information about your site that can be used by search engines and other software. Web crawlers and search engines use the metadata contained within meta tags to evaluate, rank, and sort through websites. Good usage of metatags can help optimize a site's ranking in search results. 
 
-Meta tags need to be placed inside the `<head>` tag of your file.
+>Note: Meta tags need to be placed inside the `<head>` tag of your file.
 
 ```html
 <head>
     <meta charset="UTF-8">
-    <!-- charset determines the letter of the alphabet and characters used -->
+    <!-- charset stands for character set, and this information is used so the web browser knows which characters are being used. UTF-8 (Unicode) covers almost all of the characters and symbols used in the world. -->
     <meta name="description" content="best website ever made">
-    <!-- the description will show up on a search engine as a primary description -->
+    <!-- the description tag's content attribute will specify primary description of your site as it appears in search engines -->
     <meta name="keywords" content="cool,website,me,mine,this is cool check it out">
-    <!-- keyowrds are used to help the search engine recognize what words could help find your site-->
-    <meta name="author" content="tayte stokes">
-    <!-- author shows who created the website -->
+    <!-- keywords are used to help search engines recognize what words could help find your site-->
+    <meta name="author" content="matias perez-ferrero">
+    <!-- the author shows who created the website -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- view port will tell the browser what device is using the website and adjust for mobile design -->
 </head>

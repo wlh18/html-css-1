@@ -46,6 +46,8 @@ Check out this visual analogy of what HTML, CSS, and JavaScript do respectively:
 
 ![deadpool-HTML-CSS-JS](images/deadpool-HTML-CSS-JS.gif)
 
+
+### Making an HTML File
 We can create an HTML file by ending the name of the file with a `.html` extension. This will tell our browswer and code editors to read the file as HTML. It's important to note that `index.html` is a common name used with the root HTML file since the browser looks for files called `index` by default.
 
 ### Syntax Overview

@@ -1,8 +1,8 @@
 # Lesson Sections
 
 1. [HTML/CSS I Lecture Notes](#HTML/CSS-I)
-1. [HTML/CSS I Mini Project](#HTML/CSS-I-Mini-Project)
-1. [HTML/CSS I Afternoon Project](#HTML/CSS-I-Afternoon-Project)
+1. [HTML/CSS I Mini Project](#HTMLCSS-I-Mini-Project)
+1. [HTML/CSS I Afternoon Project](#HTMLCSS-I-Afternoon-Project)
 
 # HTML/CSS I Lecture Notes
 

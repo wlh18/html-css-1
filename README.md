@@ -193,19 +193,19 @@ A semantic alternative to the `<div>` tag is the `<section>` tag. It can be used
 
 ```html
 <section>
-    <p>I'm using a section tag to create a somehow significant division within my web page to house a paragraph tag</p>
+    <p>I'm using a section tag to create a semantic division within my web page that contains a paragraph tag</p>
 </section>
 ```
 
 #### Span Tags
 
-The `<span>` tag is used to group inline-elements in our document. The span tag does not provide any visual changes on its own.
+The `<span>` tag is used to group inline elements in our document. The span tag does not provide any visual changes on its own.
 
 We can use span tags, in conjuction with ids or classes, as a "hook" inside of another element to apply more specific styling or functionality to that content. 
 
 ```html
 <span>
-    <p>I'm a <span>span</span> tag inside of a p tag inside of a span tag!</p>
+    <p>I'm a <span id="different-styled-font">span</span> tag inside of a p tag inside of a span tag!</p>
 </span>
 ```
 
@@ -215,7 +215,13 @@ Every HTML element has a default display value depending on what tag is used. Th
 
 #### Block Level
 
-Block level elements always start on a new line and will take up 100% of the width available (they stretch from left to right as much as they can).
+Block level elements do the following: 
+
+1. Do not allow elements to sit to their left or right
+1. Force a line break after the block element
+1. Acquire full width if width is not defined (i.e. width is 100% by default)
+1. Can be assigned a height and width
+1. Respect top, right, bottom, and left paddings and margins
 
 For example: the `<div>` element has a `block` display by default.
 
@@ -229,7 +235,12 @@ Other common elements that have a `block` display by default:
 
 #### Inline Level
 
-Inline level elements *DO NOT* start on a new line and will only take up as much width as needed. They can share a line with other inline elements. 
+Inline level elements *DO NOT* start on a new line and will only take up as much width as needed. They do the following: 
+
+1. Allows other inline or inline-block elements to sit to their left and right
+1. Cannot be assigned a width and height
+1. Respect left and right margins and padding, but not 
+1.
 
 For example: the `<span>` tag is a common `inline` display element.
 

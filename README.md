@@ -10,7 +10,7 @@
 
 * Student can describe what HTML is
 * Student can use the head tag to insert meta information about the page
-* Student can change the title and icon of their webpage
+* Student can change the title and icon of their webpage (?)
 * Student can use the body tag to specify what will be displayed
 * Student can use div, p, h1-h6, and span tags to layout a flow of information
 * Student can use ol, ul, and li tags
@@ -18,10 +18,12 @@
 * Student can use img tags to bring in pictures
 * Student can use a tags to route to another webpage
 * Student can use link tags to bring in CSS files
-* Student can describe the box-model
-* Student can explain box-sizing: border-box
-* Student can use and describe inline, inline-block, and block elements
-* Student can use the class and id properties
+* Student can describe the box-model (?)
+* Student can explain box-sizing: border-box (?)
+* Student can use and describe inline, inline-block, and block elements (?)
+* Student can use the class and id attributes (?)
+* Student can utilize and understand the benefits of semantic HTML (?)
+* Student can understand the difference between px, %, vh/vw, em, and rem (?)
 
 ### CSS
 
@@ -40,7 +42,7 @@
 
 ## HTML
 
-HTML stands for Hyper Text Markup Language. It is one of the building block languages of the web that will establish the infrastructure of our web pages. HTML is **NOT** a programming language; HTML is considered a "markup" language. HTML does not contain logic, and it contains very little, if any, native styling. HTML is used to declare the structure of the contents of a page. CSS and JavaScript are the languages we will use to bring our webpages to life. 
+HTML stands for Hyper Text Markup Language. It is one of the building block languages of the web, and it is used to create the infrastructure of a webpage. HTML is **NOT** a programming language; HTML is considered a "markup" language. HTML does not contain logic, and HTML elements contain very little, if any, native styling. HTML is simply used to specify the structure and basic parts of a page. CSS and JavaScript are the languages we will use to bring our webpages to life. 
 
 Check out this visual analogy of what HTML, CSS, and JavaScript do respectively: 
 
@@ -48,7 +50,7 @@ Check out this visual analogy of what HTML, CSS, and JavaScript do respectively:
 
 
 ### Making an HTML File
-We can create an HTML file by ending the name of the file with a `.html` extension. This will tell our browser and code editors to read the file as HTML. 
+We can create an HTML file by ending the name of the file with an `.html` extension. This will tell our browser and code editors to read the file as HTML. 
 
 >Note: `index.html` is the standard name for a root HTML file since the browser looks for files called `index` by default.
 
@@ -100,9 +102,10 @@ Now, let's break down the structure seen above.
 
 `<head>` - The head tag is a container used to contain "metadata" (data about data). Metadata is what is used to define the title of the document, character set, and other details that are relevant for accessibility and SEO. Metadata is not displayed on the web page for the user.
 
-`<title>` - This is a metadata tag that will contain the title of our document.
+`<title>` - This is a metadata tag that will contain the title of our document. 
+>Fun Fact: The title determines what words are displayed on the web page tab. 
 
-`<body>` - The body tag is the container for all the elements that will make up our web page. Everything inside of our body tag will be displayed to the web page. This is where we will store our elements such as divs, spans, hyperlinks, text, etc.
+`<body>` - The body tag is the container for all the elements that will make up our web page. Everything inside of our body tag will be displayed on the web page. This is where we will store our elements such as divs, spans, hyperlinks, text, etc.
 
 ### Comments In HTML
 
@@ -125,35 +128,37 @@ Meta tags are a place to provide information about your site that can be used by
 ```html
 <head>
     <meta charset="UTF-8">
-    <!-- charset stands for character set, and this information is used so the web browser knows which characters are being used. UTF-8 (Unicode) covers almost all of the characters and symbols used in the world. -->
+    <!-- charset stands for character set, and this information is used so the web browser knows which characters, or alphabets, are being used. UTF-8 (Unicode) covers almost all of the characters and symbols used in the world. -->
     <meta name="description" content="best website ever made">
-    <!-- the description tag's content attribute will specify primary description of your site as it appears in search engines -->
+    <!-- the description tag has a content attribute that dictates the primary description of your site as it appears in search engines -->
     <meta name="keywords" content="cool,website,me,mine,this is cool check it out">
-    <!-- keywords are used to help search engines recognize what words could help find your site-->
+    <!-- keywords are used to help search engines recognize what search words can be used to point users toward a site-->
     <meta name="author" content="matias perez-ferrero">
-    <!-- the author shows who created the website -->
+    <!-- straightforwardly enough, the author tag serves to credit the creator of a website -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- view port will tell the browser what device is using the website and adjust for mobile design -->
+    <!-- a browser viewport is the area of web page in which the content is visible to the user. The width attribute can be used to set a specific width in pixels of the intended display. Here it is set to a special value (“width= device-width”) which is the width of the device in terms of CSS pixels at a scale of 100%. The initial-scale property governs the zoom level when the page is loaded for the first time. -->
 </head>
 ```
 
 ### Semantic Markup
 
-Semantic elements are elements that simply provide a meaning to the browser and developer rather than just representation. 
+Semantic elements are elements that also communicate some meaning, as opposed to being used simply for display. 
 
 Example of NON-Semantic: `<div>, <span>`
 
-Example of Semantic: `<footer>, <header>, <nav>`
+Example of Semantic: `<footer>, <header>, <nav>, <form>, <table>, <article>, <main>, <section>`
 
-Notice how the tags are providng a meaning to what content will be stored between them. Using semantic HTML will help communicate to the browser what your web page is and this will also be communicated to search engines making it easier to find your site.
+Notice how the tag names imply some significant meaning about their contents. Appropriate usage of semantic HTML can boost a site's search engine optimization (SEO), and also enable screen reading softwares to work more effectively for people with disabilities. 
+
+>Note: As of Oct. 2019, the Supreme Court has cleared the way for discrimination law suits against websites that are not accessible to people with disabilities. The Supreme Court let stand a ruling that the Americans With Disabilities act requires web pages to be equally accessible as any other utility to those with disabilities. This means that creating accessible websites will be legally mandatory in the near future. 
 
 ### Common Tags In HTML
 
-There are many different tags that we can use to creat HTML elements. Here, we will go over a few the most commonly used tags to create the structure of our application.
+There are many different tags that we can use to create HTML elements. Here, we will review the more commonly used HTML tags. 
 
 #### Heading Tags
 
-Heading tags are used to declare that the content inside of the brackets are going to be headers for a section on our web page.
+Heading tags are used to create headers for content on a webpage. Heading tags tend to come with built-in font size and weight variations corresponding to their level. These can be removed with a reset CSS file, or customized using your own stylesheets. 
 
 There are 6 different heading tags that are available to us. The lower the number for the tag, the more important of a heading it is.
 
@@ -168,7 +173,7 @@ There are 6 different heading tags that are available to us. The lower the numbe
 
 #### Paragraph Tags
 
-The `<p>` tag can be used to declare that this element will be a paragraph.
+The `<p>` tag can be used to declare that an element will be a paragraph.
 
 ```html
 <p>Hey, I'm a paragraph!</p>
@@ -176,7 +181,7 @@ The `<p>` tag can be used to declare that this element will be a paragraph.
 
 #### Div Tags
 
-The `<div>` tag represents a division or a section within our web page. This tag is often used as a container to house multiple elements to apply specific styling or functionality using javascript.
+The `<div>` tag represents a division or a section within our web page. It is not semantic, as it doesn't imply anything about the contents of the tag. Div tags are often used as a container, or wrapper, for other elements in order to arrange the inner elements or apply some javascript functionality. 
 
 ```html
 <div>
@@ -184,33 +189,33 @@ The `<div>` tag represents a division or a section within our web page. This tag
 </div>
 ```
 
-A semantic alternative to the `<div>` tag would be the `<section>` tag. It is used exactly the same way that you would use a `<div>` tag, and is used to denote a section of code.
+A semantic alternative to the `<div>` tag is the `<section>` tag. It can be used the same way that you would use a `<div>` tag, but it implies that this is a meaningful section of your web page. 
 
 ```html
 <section>
-    <p>I'm using a section tag to create a division within my web page to house a paragraph tag</p>
+    <p>I'm using a section tag to create a somehow significant division within my web page to house a paragraph tag</p>
 </section>
 ```
 
 #### Span Tags
 
-The `<span>` tag is used to group inline-element in our document. The span tag does not apply any visual changes to our structure of elements.
+The `<span>` tag is used to group inline-elements in our document. The span tag does not provide any visual changes on its own.
 
-We also use span tags as `hooks` inside of our text to apply specific styling or functionality to a word in our text.
+We can use span tags, in conjuction with ids or classes, as a "hook" inside of another element to apply more specific styling or functionality to that content. 
 
 ```html
 <span>
-    <p>I'm a <span>paragraph</span> tag inside of a span!</p>
+    <p>I'm a <span>span</span> tag inside of a p tag inside of a span tag!</p>
 </span>
 ```
 
-### Inline Level VS Block Level Elements
+### Inline, Block, and Inline-Block Elements
 
-Every HTML element has a default display value depending on what tag is used. The two display values are: `inline` and `block`.
+Every HTML element has a default display value depending on what tag is used. The two default display values are: `inline` and `block`.
 
 #### Block Level
 
-Block level elements always start on a new line and will take up the full width available. (stretches from left to right as much as it can).
+Block level elements always start on a new line and will take up 100% of the width available (they stretch from left to right as much as they can).
 
 For example: the `<div>` element has a `block` display by default.
 
@@ -224,7 +229,7 @@ Other common elements that have a `block` display by default:
 
 #### Inline Level
 
-Inline level elements *DO NOT* start on a new line and will only take up as much width as needed.
+Inline level elements *DO NOT* start on a new line and will only take up as much width as needed. They can share a line with other inline elements. 
 
 For example: the `<span>` tag is a common `inline` display element.
 

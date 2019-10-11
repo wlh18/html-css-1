@@ -158,7 +158,8 @@ Notice how the tag names imply some significant meaning about their contents. Ap
 
 There are many different tags that we can use to create HTML elements. Here, we will review the more commonly used HTML tags. 
 
-#### Heading Tags
+<details>
+    <summary>Heading Tags</summary>
 
 Heading tags are used to create headers for content on a webpage. Heading tags can come with built-in font size and weight variations corresponding to their level, depending on the browser. These can be removed with a reset CSS file, or customized using your own stylesheets. 
 
@@ -172,16 +173,20 @@ There are 6 different heading tags that are available to us. The lower the numbe
 <h5>Heading Five</h5>
 <h6>Heading Six</h6>
 ```
+</details>
 
-#### Paragraph Tags
+<details>
+    <summary>Paragraph Tags</summary>
 
 The `<p>` tag can be used to declare that an element will be a paragraph.
 
 ```html
 <p>Hey, I'm a paragraph!</p>
 ```
+</details>
 
-#### Div Tags
+<details>
+    <summary>Div and Section Tags</summary>
 
 The `<div>` tag represents a division or a section within our web page. It is not semantic, as it doesn't imply anything about the contents of the tag. Div tags are often used as a container, or wrapper, for other elements in order to arrange the inner elements or apply some javascript functionality. 
 
@@ -198,8 +203,10 @@ A semantic alternative to the `<div>` tag is the `<section>` tag. It can be used
     <p>I'm using a section tag to create a semantic division within my web page that contains a paragraph tag</p>
 </section>
 ```
+</details>
 
-#### Span Tags
+<details>
+    <summary>Span Tags</sumary>
 
 The `<span>` tag is used to group inline elements in our document. The span tag does not provide any visual changes on its own.
 
@@ -210,6 +217,7 @@ We can use span tags, in conjuction with ids or classes, as a "hook" inside of a
     <p>I'm a <span id="different-styled-font">span</span> tag inside of a p tag inside of a span tag!</p>
 </span>
 ```
+</details>
 
 ### Inline, Block, and Inline-Block Elements
 

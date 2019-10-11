@@ -219,9 +219,13 @@ Here's a visual representation of differences between the properties:
 
 ![inline-inline-block-block](images/inline-inline-block-block.png)
 
-#### Block Level
+Now let's explore some more of the features of each. 
 
-Block level elements do the following: 
+#### Block Level
+<details>
+    <summary>Block Level Information</summary>
+
+Block level elements have some whitespace above and below the element. Block level elements also do the following: 
 
 1. Do not allow elements to sit to their left or right
 1. Force a line break after the block element
@@ -229,34 +233,47 @@ Block level elements do the following:
 1. Can be assigned a height and width
 1. Respect top, right, bottom, and left paddings and margins
 
-For example: the `<div>` element has a `block` display by default.
-
-Other common elements that have a `block` display by default:
+Here are some common elements that are assigned `display: block` by default:
 
 * `<ul>`
 * `<form>`
 * `<main>`
 * `<footer>`
 * `<nav>`
+* `<div>`
+</details>
 
 #### Inline Level
+<details>
+    <summary>Inline Level Information</summary>
 
-Inline level elements *DO NOT* start on a new line and will only take up as much width as needed. They do the following: 
+Inline level elements *DO NOT* start on a new line and will only take up as much width as needed. They have no line breaks before or after the element. They also do the following: 
 
-1. Allows other inline or inline-block elements to sit to their left and right
+1. Allow other inline or inline-block elements to sit to their left and right
 1. Cannot be assigned a width and height
-1. Respect left and right margins and padding, but not 
-1.
+1. Respect left and right margins and padding, but *not* vertical margins and padding
 
-For example: the `<span>` tag is a common `inline` display element.
+>Note: Inline elements can be given vertical padding and borders of their own, but they will not push away other elements. These is tricky to wrap your head around, so check out this article for more details on inline-level elements: https://hacks.mozilla.org/2015/03/understanding-inline-box-model/
 
-Other common elements that have an `inline` display by default:
+Here are some common elements that are assigned `display:inline` by default:
 
 * `<button>`
 * `<a>`
 * `<label>`
 * `<br>`
+* `<span>`
+</details>
 
+#### Inline-block Level
+<details>
+    <summary>Inline-block Information</summary>
+
+Inline-block elements are placed as inline elements (on the same line as adjacent content), but they otherwise behave like block level elements. Inline-block level elements also do the following: 
+
+1. Allow other elements to sit to their left and right
+1. Respect top and bottom margins and padding
+1. Respect height and width
+</details>
 
 ### Tag Attributes
 

@@ -183,9 +183,15 @@ There are 6 different heading tags that are available to us. The lower the numbe
 
 Browsers, such as screen readers for disabled users, can use the nav element to determine whether to omit the initial rendering of the content.
 
-```html
-<nav><button>Home</button><button>About</button><button>Contact</button></nav>
-```
+
+</details>
+
+<details>
+    <summary>Nav Tags</summary>
+    <br />
+    <br />
+    
+    The `<nav>` tag 
 
 </details>
 

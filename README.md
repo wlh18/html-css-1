@@ -87,7 +87,8 @@ Above we can see the basic syntax of an HTML element.
 >Notice that there is only one tag, and it uses a forward slash at the ending of the tag.
 </details>
 
-### Basic HTML Structure
+<details>
+    <summary>Basic HTML Page Structure</summary>
 
 Here's an example of a basic HTML page structure: 
 
@@ -116,8 +117,10 @@ Now, let's break down the structure seen above.
 >Fun Fact: The title determines what words are displayed on the web page tab. 
 
 `<body>` - The body tag is the container for all the elements that will make up our web page. Everything inside of our body tag will be displayed on the web page. This is where we will store our elements such as divs, spans, hyperlinks, text, etc.
+</details>
 
-### Comments In HTML
+<details>
+    <summary>Comments In HTML</summary>
 
 We can write comments in our code to help clarify what's going on in the development environment. Comments will not appear in the browser, so they're not intended to be used for users. Comments are an excellent way to communicate with other developers, and even our future selves, what's supposed to be going on in our code.
 
@@ -128,6 +131,7 @@ Comments begin with `<!--` and close with `-->`.
     <!-- This is a comment that will not be displayed on the web page -->
 </body>
 ```
+</details>
 
 ### Meta Tags
 
@@ -161,7 +165,7 @@ Example of Semantic: `<footer>, <header>, <nav>, <form>, <table>, <article>, <ma
 Notice how the tag names imply some significant meaning about their contents. Appropriate usage of semantic HTML can boost a site's search engine optimization (SEO), and also enable screen reading softwares to work more effectively for people with disabilities. 
 
 When it comes to making your sites more accessible, here are three easy tips to follow: 
-1. Always use the semantic tag alternative if it is an option
+1. Always use the semantic tag alternative if it's an option
 1. Attach labels to each of your `<input />` elements
 1. Use a `<button>` tag whenever you use an `onClick` event handler.
 

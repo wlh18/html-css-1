@@ -150,7 +150,12 @@ Example of Semantic: `<footer>, <header>, <nav>, <form>, <table>, <article>, <ma
 
 Notice how the tag names imply some significant meaning about their contents. Appropriate usage of semantic HTML can boost a site's search engine optimization (SEO), and also enable screen reading softwares to work more effectively for people with disabilities. 
 
->Note: As of Oct. 2019, the Supreme Court has cleared the way for discrimination law suits against websites that are not accessible to people with disabilities. The Supreme Court let stand a ruling that the Americans With Disabilities act requires web pages to be equally accessible as any other utility to those with disabilities. This means that creating accessible websites will be legally mandatory in the near future. 
+When it comes to making your sites more accessible, here are three easy tips to follow: 
+1. Always use the semantic tag alternative if it is an option
+1. Attach labels to each of your `<input />` elements
+1. Use a `<button>` tag whenever you use an `onClick` event handler.
+
+>Note: As of Oct. 2019, the Supreme Court has cleared the way for discrimination law suits against websites that are not accessible to people with disabilities. The Supreme Court let stand a ruling that the Americans With Disabilities act requires web pages to be equally accessible as any other utility to those with disabilities. This means that creating accessible websites will be legally mandatory in the near future. In light of this, be aware that chrome has developer tools that can help audit accessibility issues, and you can also add this extension that provides more advanced features for discovering accessibility issues: https://chrome.google.com/webstore/detail/axe-web-accessibility-tes/lhdoppojpmngadmnindnejefpokejbdd?hl=en-US 
 
 ### Common Tags In HTML
 
@@ -161,7 +166,7 @@ There are many different tags that we can use to create HTML elements. Here, we 
 
 Heading tags are used to create headers for content on a webpage. Heading tags can come with built-in font size and weight variations corresponding to their level, depending on the browser. These can be removed with a reset CSS file, or customized using your own stylesheets. 
 
-There are 6 different heading tags that are available to us. The lower the number for the tag, the more important of a heading it is.
+There are 6 levels of heading tags that are available for use. The lower the number of the heading is, the more important it is.
 
 ```html
 <h1>Heading One</h1>

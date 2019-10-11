@@ -56,33 +56,36 @@ Check out this visual analogy for what HTML, CSS, and JavaScript do respectively
 
 HTML stands for Hyper Text Markup Language. HTML is used to create the infrastructure of a webpage. HTML is **NOT** a programming language; HTML is considered a "markup" language. HTML does not contain logic, and HTML elements contain very little, if any, native styling. HTML is simply used to specify the structure and basic parts of a page. 
 
-### Making an HTML File
+<details>
+    <summary>Making an HTML File</summary>
 We can create an HTML file by ending the name of the file with an `.html` extension. This will tell our browser and code editors to read the file as HTML. 
 
 >Note: `index.html` is the standard name for a root HTML file since the browser looks for files called `index` by default.
+</details>
 
-### Syntax Overview
+<details>
+    <summary>Syntax Overview</summary>
 
-HTML is based around using "tags" to create HTML **elements**.
+HTML is based around using "tags" to create HTML "elements".
 
 
 ```html
     <thisisatag>This is the "content"</thisisatag>
 ```
 
-Above we can see the basic syntax of an HTML tag, or element.
+Above we can see the basic syntax of an HTML element.
 
-1. First is the "tag" itself. We declare HTML tags using angle brackets `<>`, with the name for the tag contained within the `<>` brackets.
+1. First is the tag itself. We declare HTML tags using angle brackets `<>`, with the name for the tag contained within the `<>` brackets.
 2. Most HTML tags come in pairs of opening and closing tags. The closing tag begins with a `/` immediately after the first angle bracket to indicate that it is corresponding closing pair of the HTML tag.
-3. Between the angle brackets is where we specify the type of tag we are using.
-4. We wrap the tags around the **content** that we want stored inside that HTML element or tag.
+3. Between the angle brackets is where we specify the type of tag we are using. There are various types of tags native to HTML, which we will cover shortly.
+4. We wrap the tags around the **content** that we want stored inside that HTML tag. The content together with the tag creates an HTML element. 
 
 >Note: Some elements are called "self-closing" or "void" elements because their tags should not be written in pairs. This is because they are not designed to contain content. See the example below:
 ```html
     <input />
 ```
-
 >Notice that there is only one tag, and it uses a forward slash at the ending of the tag.
+</details>
 
 ### Basic HTML Structure
 

@@ -152,8 +152,6 @@ Notice how the tag names imply some significant meaning about their contents. Ap
 
 >Note: As of Oct. 2019, the Supreme Court has cleared the way for discrimination law suits against websites that are not accessible to people with disabilities. The Supreme Court let stand a ruling that the Americans With Disabilities act requires web pages to be equally accessible as any other utility to those with disabilities. This means that creating accessible websites will be legally mandatory in the near future. 
 
-
-
 ### Common Tags In HTML
 
 There are many different tags that we can use to create HTML elements. Here, we will review the more commonly used HTML tags. 
@@ -173,6 +171,19 @@ There are 6 different heading tags that are available to us. The lower the numbe
 <h5>Heading Five</h5>
 <h6>Heading Six</h6>
 ```
+</details>
+
+<details>
+    <summary>Nav Tags</summary>
+    The <nav> tag defines a set of navigation links.
+    >Note: Not all links of a document should be inside a <nav> element. The <nav> element is intended only for major block of navigation links.
+
+Browsers, such as screen readers for disabled users, can use the nav element to determine whether to omit the initial rendering of the content.
+
+```html
+<nav><button>Home</button><button>About</button><button>Contact</button></nav>
+```
+
 </details>
 
 <details>
@@ -206,7 +217,7 @@ A semantic alternative to the `<div>` tag is the `<section>` tag. It can be used
 </details>
 
 <details>
-    <summary>Span Tags</sumary>
+    <summary>Span Tags</summary>
 
 The `<span>` tag is used to group inline elements in our document. The span tag does not provide any visual changes on its own.
 

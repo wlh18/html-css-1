@@ -158,7 +158,7 @@ There are many different tags that we can use to create HTML elements. Here, we 
 
 #### Heading Tags
 
-Heading tags are used to create headers for content on a webpage. Heading tags tend to come with built-in font size and weight variations corresponding to their level. These can be removed with a reset CSS file, or customized using your own stylesheets. 
+Heading tags are used to create headers for content on a webpage. Heading tags can come with built-in font size and weight variations corresponding to their level, depending on the browser. These can be removed with a reset CSS file, or customized using your own stylesheets. 
 
 There are 6 different heading tags that are available to us. The lower the number for the tag, the more important of a heading it is.
 

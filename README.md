@@ -44,7 +44,7 @@
 <details open>
     <summary>Lecture Introduction</summary>
     
-In this lecture we introduce HTML and CSS. HTML (HyperText Markup Language) and CSS (Cascading Style Sheets) are two of the building block languages of web applications, and they are considered "front-end" technologies. HTML gives content *structure* and *meaning* by defining the "elements" that the web page is made up of. CSS is simply a presentational language that is used for the *layout* and *styling* of a webpage. JavaScript, together with HTML and CSS, is responsible for bringing our websites to life.
+In this lecture we introduce HTML and CSS. HTML (HyperText Markup Language) and CSS (Cascading Style Sheets) are two of the building block languages of web applications, and they are considered "front-end" technologies. HTML gives content *structure* and *meaning* by defining the "elements" that the web page is made up of. CSS is a presentational language that is used for only for the *layout* and *styling* of a webpage. JavaScript, together with HTML and CSS, is responsible for bringing our websites to life.
 
 Check out this visual analogy for what HTML, CSS, and JavaScript do respectively: 
 

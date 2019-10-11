@@ -36,17 +36,27 @@
 * Student can use the float property
 * Student can use and describe a reset file
 * Student can bring in a new font into a project
+* Student understands the purpose of a mockup
 
 
 # HTML/CSS I Lecture Notes
 
-## HTML
+<details open>
+    <summary>Lecture Introduction</summary>
+    
+In this lecture we introduce HTML and CSS. HTML (HyperText Markup Language) and CSS (Cascading Style Sheets) are two of the building block languages of web applications, and they are considered "front-end" technologies. HTML gives content *structure* and *meaning* by defining the "elements" that the web page is made up of. CSS is simply a presentational language that is used for the *layout* and *styling* of a webpage. JavaScript, together with HTML and CSS, is responsible for bringing our websites to life.
 
-HTML stands for Hyper Text Markup Language. It is one of the building block languages of the web, and it is used to create the infrastructure of a webpage. HTML is **NOT** a programming language; HTML is considered a "markup" language. HTML does not contain logic, and HTML elements contain very little, if any, native styling. HTML is simply used to specify the structure and basic parts of a page. CSS and JavaScript are the languages we will use to bring our webpages to life. 
-
-Check out this visual analogy of what HTML, CSS, and JavaScript do respectively: 
+Check out this visual analogy for what HTML, CSS, and JavaScript do respectively: 
 
 ![deadpool-HTML-CSS-JS](images/deadpool-HTML-CSS-JS.gif)
+    
+</details>
+
+## HTML
+
+HTML stands for Hyper Text Markup Language. HTML is used to create the infrastructure of a webpage. HTML is **NOT** a programming language; HTML is considered a "markup" language. HTML does not contain logic, and HTML elements contain very little, if any, native styling. HTML is simply used to specify the structure and basic parts of a page. 
+
+Check out this visual analogy of what HTML, CSS, and JavaScript do respectively: 
 
 
 ### Making an HTML File

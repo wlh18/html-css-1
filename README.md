@@ -70,7 +70,7 @@ Above we can see the basic syntax of an HTML tag, or element.
 3. Between the angle brackets is where we specify the type of tag we are using.
 4. We wrap the tags around the **content** that we want stored inside that HTML element or tag.
 
->Note: Some elements are called "self-closing" or "void" elements because they should not be written in pairs. This is because they are not designed to contain content. See the example below:
+>Note: Some elements are called "self-closing" or "void" elements because their tags should not be written in pairs. This is because they are not designed to contain content. See the example below:
 ```html
     <input />
 ```

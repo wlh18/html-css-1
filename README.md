@@ -131,7 +131,7 @@ Meta tags are a place to provide information about your site that can be used by
     <!-- charset stands for character set, and this information is used so the web browser knows which characters, or alphabets, are being used. UTF-8 (Unicode) covers almost all of the characters and symbols used in the world. -->
     <meta name="description" content="best website ever made">
     <!-- the description tag has a content attribute that dictates the primary description of your site as it appears in search engines -->
-    <meta name="keywords" content="cool,website,me,mine,this is cool check it out">
+    <meta name="keywords" content="greatest, best, ultimate, GOAT, website, of all time">
     <!-- keywords are used to help search engines recognize what search words can be used to point users toward a site-->
     <meta name="author" content="matias perez-ferrero">
     <!-- straightforwardly enough, the author tag serves to credit the creator of a website -->

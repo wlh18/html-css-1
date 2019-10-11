@@ -71,7 +71,7 @@ HTML is based around using "tags" to create HTML "elements".
 
 
 ```html
-    <thisisatag>This is the "content"</thisisatag>
+    <thisisatag>This is the content</thisisatag>
 ```
 
 Above we can see the basic syntax of an HTML element.

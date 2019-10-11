@@ -58,6 +58,7 @@ HTML stands for Hyper Text Markup Language. HTML is used to create the infrastru
 
 <details>
     <summary>Making an HTML File</summary>
+    
 We can create an HTML file by ending the name of the file with an `.html` extension. This will tell our browser and code editors to read the file as HTML. 
 
 >Note: `index.html` is the standard name for a root HTML file since the browser looks for files called `index` by default.

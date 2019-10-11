@@ -96,7 +96,7 @@ Here's an example of a basic HTML page structure:
 Now, let's break down the structure seen above.
 
 `<!DOCTYPE html>` - This tag is pretty unique, and it's actually not an HTML element; it's an instruction to your web browser so that it knows what type of file to expect. 
->NOTE: Always make sure that this is the first declaration in your HTML document, otherwise your page may not work.
+>Note: Always make sure that this is the first declaration in your HTML document, otherwise your page may not work.
 
 `<html>` - The html tag tells the browser that everything contained inside the tag should be read as html. We can use the `lang` "attribute" to specify the human language that the contents are written in. This element will act as the root tag for our file, which means that everything will be contained inside of this tag. 
 

@@ -36,7 +36,7 @@
 * Student can use the float property
 * Student can use and describe a reset file
 * Student can bring in a new font into a project
-* Student understands the purpose of a mockup
+* Student understands the purpose of a mockup (?)
 
 
 # HTML/CSS I Lecture Notes

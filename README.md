@@ -97,6 +97,7 @@ Here's an example of a basic HTML page structure:
 <!DOCTYPE html>
 <html lang="en">
   <head>
+     <!-- Meta tags and external links go here too -->
     <title>Document</title>
   </head>
   <body>

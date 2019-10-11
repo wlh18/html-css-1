@@ -140,7 +140,7 @@ Meta tags are a place to provide information about your site that can be used by
 </head>
 ```
 
-### Semantic Markup
+### Semantic HTML
 
 Semantic elements are elements that also communicate some meaning, as opposed to being used simply for display. 
 
@@ -151,6 +151,8 @@ Example of Semantic: `<footer>, <header>, <nav>, <form>, <table>, <article>, <ma
 Notice how the tag names imply some significant meaning about their contents. Appropriate usage of semantic HTML can boost a site's search engine optimization (SEO), and also enable screen reading softwares to work more effectively for people with disabilities. 
 
 >Note: As of Oct. 2019, the Supreme Court has cleared the way for discrimination law suits against websites that are not accessible to people with disabilities. The Supreme Court let stand a ruling that the Americans With Disabilities act requires web pages to be equally accessible as any other utility to those with disabilities. This means that creating accessible websites will be legally mandatory in the near future. 
+
+
 
 ### Common Tags In HTML
 
@@ -571,15 +573,12 @@ div {
 }
 ```
 
-### DRY CSS
+### DRY Code => DRY CSS
 
-`DRY` stands for 'dont repeat yourself'. This is a practice to follow to help us avoid writing the same code multple times.
+`DRY` stands for 'don't repeat yourself'. This is a coding philosophy developers should aspire to follow to help avoid writing the same code over and over again. 
 
-Practices to help follow the DRY pattern:
+When it comes to CSS, here's tips to apply in order to stay DRY:
 
-- Use classes to style many elements
-- Style as generally as you can, then make any adjustments for specific styling
-- Semantic HTML can help you name elements even more precise
 
 ### Reset CSS
 
@@ -689,6 +688,8 @@ Padding is the white space between the content of an element and its border
 
 4. Content
 The content of an element is anything inside of an element such as text, images, etc.
+
+# Additional Resources
 
 # HTML/CSS I Mini Project
 

@@ -20,7 +20,7 @@
 * Student can use link tags to bring in CSS files
 * Student can describe the box-model (?)
 * Student can explain box-sizing: border-box (?)
-* Student can use and describe inline, inline-block, and block elements (?)
+* Student can use and describe inline, inline-block, and block level elements (?)
 * Student can use the class and id attributes (?)
 * Student can utilize and understand the benefits of semantic HTML (?)
 * Student can understand the difference between px, %, vh/vw, em, and rem (?)

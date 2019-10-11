@@ -4,7 +4,7 @@
 1. [HTML/CSS I Mini Project](#HTMLCSS-I-Mini-Project)
 1. [HTML/CSS I Afternoon Project](#HTMLCSS-I-Afternoon-Project)
 
-## Student Learning Objectives
+# Student Learning Objectives
 
 ### HTML
 
@@ -55,9 +55,6 @@ Check out this visual analogy for what HTML, CSS, and JavaScript do respectively
 ## HTML
 
 HTML stands for Hyper Text Markup Language. HTML is used to create the infrastructure of a webpage. HTML is **NOT** a programming language; HTML is considered a "markup" language. HTML does not contain logic, and HTML elements contain very little, if any, native styling. HTML is simply used to specify the structure and basic parts of a page. 
-
-Check out this visual analogy of what HTML, CSS, and JavaScript do respectively: 
-
 
 ### Making an HTML File
 We can create an HTML file by ending the name of the file with an `.html` extension. This will tell our browser and code editors to read the file as HTML. 

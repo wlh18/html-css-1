@@ -211,7 +211,8 @@ We can use span tags, in conjuction with ids or classes, as a "hook" inside of a
 
 ### Inline, Block, and Inline-Block Elements
 
-Every HTML element has a default display value depending on what tag is used. The two default display values are: `inline` and `block`.
+Every HTML element has a default display property value assigned depending on the tag used. The two default display values are: `inline` and `block`. You can also assign an `inline-block` value to the display property. Here's a visual representation of differences between the properties: 
+![inline-inline-block-block](images/inline-inline-block-block.png)
 
 #### Block Level
 
@@ -250,6 +251,7 @@ Other common elements that have an `inline` display by default:
 * `<a>`
 * `<label>`
 * `<br>`
+
 
 ### Tag Attributes
 

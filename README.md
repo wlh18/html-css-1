@@ -175,8 +175,9 @@ There are 6 different heading tags that are available to us. The lower the numbe
 
 <details>
     <summary>Nav Tags</summary>
-    
-    The <nav> tag defines a set of navigation links.
+    <br />
+    <br />
+The `<nav>` tag defines a set of navigation links.
 >Note: Not all links of a document should be inside a <nav> element. The <nav> element is intended only for major block of navigation links.
 
 

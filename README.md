@@ -41,7 +41,6 @@
 * Student can use and describe a reset file
 * Student can understand and utilize a mockup (?)
 
-
 # HTML/CSS I Lecture Notes
 
 <details open>
@@ -331,18 +330,20 @@ HTML elements are not given `display: inline-block` by default. Inline-block can
 
 ### Tag Attributes
 
-Attributes are used in HTML to provide extra information or features to a tag. All tags can have attributes, and attributes should always be placed in the opening tag. 
+Attributes are used in HTML to provide extra information or features to a tag. All tags can have attributes, and attributes should always be placed in the opening tag.
 
-Basic Syntax for an attribute:
+Basic syntax for assigning an attribute:
 
 ```html
 <tagname attributeName="attributeValue">content</tagname>
 ```
 
-The attribute above has both a name and a value. The value is *assigned* to the name, and is wrapped in quotes. Notice also that the attribute is declared and assigned in the opening tag. 
+The attribute above has both a name and a value. The value is *assigned* to the name, and is wrapped in quotes. Notice also that the attribute is declared and assigned in the opening tag, not the closing tag. 
 
 Common attributes:
 
+* `id` - the id attribute is used to assign a specific id to an element. This will help us target the desired element when adding in styling or functionality through CSS or JavaScript. There can only be one id assigned to a tag. Ids should be unique and used only once.  
+* `class` - the class attribute is used to assign a specific class to an element. Similar to ids, classes let us target desired elements for styling or functionality, but they are designed to be used across multiple elements at a time. Elements can also have multiple classes.
 * `href` - the href attribute is commonly paired with an `<a>` tag, and it is used to specify a URL path to link to
 * `src` - image tags can use the src attribute to specify the source path or file name of the image displayed
 * `height` - the height attribute is used to assign a height to an element. It can take values of `px`, `%`, `vh`, `em`, or `rem`
@@ -424,19 +425,19 @@ Buttons are a great way to enable users to interact with a web page.
 
 `<button>` - this is the tag used to create a button.
 
-In order to make buttons interactive, an event handling attribute, like `onClick` would need to be added. Events will be covered in the near future, so don't worry about them for now. Here's an example of what a button might look like:
+In order to make buttons or other elements interactive, an event handling attribute, like `onclick` would need to be added. Events will be covered in the near future, so don't worry too much about them for now. Here's an example of what a button might look like:
 
 ```html
-<button onClick="someFunction()">Cool Button!</button>
+<button onclick="someFunction()">Cool Button!</button>
 ```
 
 ### Images
 
-Images can be embedded into a web page via the `<img>` tag.
+Images can be embedded into a web page using the `<img>` tag.
 
-The `src` attribute is necessary to specify the source of the image shown. It can be a relative, local path, or a URL to some external source.
+The `src` attribute is necessary to specify the source of the image shown. It can point to a relative path, or be a URL to some external source.
 
-Image elements can also use an `alt` attribute to specify text that will display if the image source can't be loaded. Including descriptive `alt` tags is another way to enable a better experience for users with disabilities, as screen readers can read out the alt tag for visually impaired users. 
+Image elements can also use an `alt` attribute to create text that will display if the image source can't be loaded. Including descriptive `alt` tags is another way to enable a better experience for users with disabilities, as screen readers can read out the alt tag for visually impaired users. 
 
 ```html
 <img src="https://images.unsplash.com/photo-1560807707-8cc77767d783?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80" alt="long coated white and brown puppy lying on a bed" height="500" width="500"/>
@@ -444,23 +445,34 @@ Image elements can also use an `alt` attribute to specify text that will display
 
 ### Form
 
-A `<form>` tag can be used to create a form in our HTML. This form can be used to collect user data.
+A `<form>` tag can be used to create a form element in HTML. Forms are used to collect user input. 
 
-An HTML form contains `form elements`. Form elements are different types of input fields like text area, radio buttons, check boxes, etc.
+An HTML form can contain one or more of the following `form elements`: 
+* `<input />`
+* `<textarea>`
+* `<button>`
+* `<select>`
+* `<option>`
+* `<section>`
+* `<option>`
+* `<optgroup`
+* `<fieldset>`
+* `<label>`
+* `<output>`
+
+>Note: `<label>` tags can be used to assign a label to other elements within a form by referencing their `id` attribute. Using labels is a great practice for boosting the accessibility of your site, as screen readers can inform users which input field does what. Additionally, mouse users can click on the label to toggle the control of the corresponding input field.
+
+See the example form below: 
 
 ```html
 <form>
-  First name:<br>
-  <input type="text" name="firstname"><br>
-  Last name:<br>
-  <input type="text" name="lastname">
-  <input type="submit" value="Submit">
+    <label for="first-name">First Name:</label>
+    <input type="text" name="first-name" />
+    <label for="last-name">Last Name:</label>
+    <input type="text" name="lastname" />
+    <input type="submit" value="Submit" />
 </form>
 ```
-
-`<input type="text">` - this defines a one line input field for user input
-
-`<input type="submit">` - this defines a form button that will submit the data typed into the form
 
 ### Tables
 
@@ -476,16 +488,16 @@ We can create tables to organize content in HTML by using a `<table>` tag.
     <th>Lastname</th> 
   </tr>
   <tr>
-    <td>Tayte</td>
-    <td>Stokes</td> 
-  </tr>
-  <tr>
     <td>Matt</td>
     <td>Bodily</td> 
   </tr>
   <tr>
-    <td>Catie</td>
-    <td>Mondon</td> 
+    <td>Matias</td>
+    <td>Perez-Ferrero</td> 
+  </tr>
+  <tr>
+    <td>Rob</td>
+    <td>Knowles</td> 
   </tr>
 </table>
 ```

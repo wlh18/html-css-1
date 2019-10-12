@@ -160,9 +160,9 @@ Meta tags are a place to provide information about your site that can be used by
 
 Semantic elements are elements that also communicate some meaning, as opposed to being used simply for display. 
 
-Example of NON-Semantic: `<div>, <span>`
+Examples of nonsemantic HTML: `<div>, <span>`
 
-Example of Semantic: `<footer>, <header>, <nav>, <form>, <table>, <article>, <main>, <section>`
+Examples of semantic HYTML: `<footer>, <header>, <nav>, <form>, <table>, <article>, <main>, <section>`
 
 Notice how the tag names imply some significant meaning about their contents. Appropriate usage of semantic HTML can boost a site's search engine optimization (SEO), and also enable screen reading softwares to work more effectively for people with disabilities. 
 

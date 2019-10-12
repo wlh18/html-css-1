@@ -8,7 +8,7 @@
 
 ### HTML
 
-* Student can describe what HTML is
+* Student can describe and create an HTML file (?)
 * Student can use the head tag to insert meta information about the page
 * Student can insert comments in HTML (?)
 * Student can change the title and icon of their webpage (?)
@@ -60,16 +60,18 @@ HTML stands for Hyper Text Markup Language. HTML is used to create the infrastru
 
 >Note: Over the years, there have been many versions of HTML. As of 2014, the most up-to-date version is HTML5, which introduced a number of new features to the language. For more details, see here: https://stackoverflow.com/questions/134727/whats-the-key-difference-between-html-4-and-html-5
 
+### Making an HTML File
 <details>
-    <summary>Making an HTML File</summary>
+    <summary>Information</summary>
     
 HTML files are created by ending the name of a file with an `.html` extension. This extension tells browsers and code editors to read the file as HTML. 
 
 >Note: `index.html` is the standard name for a root HTML file since the browser looks for files called `index` by default.
 </details>
 
+### HTML Syntax Overview
 <details>
-    <summary>Syntax Overview</summary>
+    <summary>Information</summary>
 
 HTML is based around filling "tags" with "content" in order to create HTML "elements".
 
@@ -92,8 +94,9 @@ Above is the basic syntax of an HTML element.
 >Notice that there is only one tag, and it uses a forward slash at the ending of the tag.
 </details>
 
+### Basic HTML Page Structure
 <details>
-    <summary>Basic HTML Page Structure</summary>
+    <summary>Information</summary>
 
 Here's an example of a basic HTML page structure: 
 
@@ -125,8 +128,9 @@ Now, let's break down the structure seen above.
 `<body>` - The body tag is the container for all the elements that will make up a web page. Everything inside of the body tag will be displayed on the web page. This is where developers will store elements such as divs, spans, hyperlinks, text, etc.
 </details>
 
+### Comments in HTML
 <details>
-    <summary>Comments In HTML</summary>
+    <summary>Information</summary>
 
 Comments can be written in HTML code to help clarify what's going on in the development environment. Comments will not appear in the browser, so they're not necessarily intended to be viewed by the users of a site. Comments are instead an excellent way to communicate with other developers, and even ourselves, about what's supposed to be going on in the code.
 
@@ -145,6 +149,9 @@ Meta tags are used to provide information about a site that can be used by searc
 
 >Note: Meta tags need to be placed inside the `<head>` tag of the file.
 
+<details>
+    <summary>Example Meta Tags</summary>
+
 ```html
 <head>
     <meta charset="UTF-8">
@@ -159,16 +166,20 @@ Meta tags are used to provide information about a site that can be used by searc
     <!-- a browser viewport is the area of web page in which the content is visible to the user. The width attribute can be used to set a specific width in pixels of the intended display. Here it is set to a special value (“width= device-width”) which is the width of the device in terms of CSS pixels at a scale of 100%. The initial-scale property governs the zoom level when the page is loaded for the first time. -->
 </head>
 ```
+</details>
 
 ### Semantic HTML
 
-Semantic elements are elements that also communicate some meaning, as opposed to being used simply for display. 
+Semantic elements are elements that also communicate some meaning, as opposed to being used simply for display. Semantic HTML is crucial for accessibility issues and Search Engine Optimization (SEO). 
+
+<details>
+    <summary>Semantic HTML Information<summary>
 
 Examples of nonsemantic HTML: `<div>, <span>`
 
 Examples of semantic HYTML: `<footer>, <header>, <nav>, <form>, <table>, <article>, <main>, <section>`
 
-Notice how the tag names imply some significant meaning about their contents. Appropriate usage of semantic HTML can boost a site's search engine optimization (SEO), and also enable screen reading softwares to work more effectively for people with disabilities. 
+Notice how the tag names imply some significant meaning about their contents. Appropriate usage of semantic HTML can boost a site's SEO, and also enable screen reading softwares to work more effectively for people with disabilities. 
 
 When it comes to making your sites more accessible, here are three easy tips to follow: 
 1. Always use the semantic tag alternative if it's an option
@@ -176,6 +187,8 @@ When it comes to making your sites more accessible, here are three easy tips to 
 1. Use a `<button>` tag whenever you use an `onClick` event handler. For more reasons on why you should try to always use buttons with onClicks, see here: https://blog.benmyers.dev/clickable-divs/
 
 >Note: As of Oct. 2019, the Supreme Court has cleared the way for discrimination law suits against websites that are not accessible to people with disabilities. The Supreme Court let stand a ruling that the Americans With Disabilities act requires web pages to be equally accessible as any other utility to those with disabilities. This means that creating accessible websites will be legally mandatory in the near future. In light of this, be aware that chrome has developer tools that can help audit accessibility issues, and you can also add this extension that provides more advanced features for discovering accessibility issues: https://chrome.google.com/webstore/detail/axe-web-accessibility-tes/lhdoppojpmngadmnindnejefpokejbdd?hl=en-US 
+
+</details>
 
 ### Common Tags In HTML
 

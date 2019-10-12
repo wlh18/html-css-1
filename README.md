@@ -173,7 +173,7 @@ Meta tags are used to provide information about a site that can be used by searc
 Semantic elements are elements that also communicate some meaning, as opposed to being used simply for display. Semantic HTML is crucial for accessibility issues and Search Engine Optimization (SEO). 
 
 <details>
-    <summary>Semantic HTML Information<summary>
+    <summary>Semantic HTML Information</summary>
 
 Examples of nonsemantic HTML: `<div>, <span>`
 

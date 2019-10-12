@@ -58,7 +58,7 @@ Check out this visual analogy for what HTML, CSS, and JavaScript do respectively
 
 HTML stands for Hyper Text Markup Language. HTML is used to create the infrastructure of a webpage. HTML is **NOT** a programming language; HTML is considered a "markup" language. HTML does not contain logic, and HTML elements contain very little, if any, native styling. HTML is simply used to specify the structure and basic parts of a page.
 
->Note: There have been many versions of HTML over the years. As of 2014, the most up-to-date version is HTML5, which introduced a number of new features to the language. For more details, see here: https://stackoverflow.com/questions/134727/whats-the-key-difference-between-html-4-and-html-5
+>Note: Over the years, there have been many versions of HTML. As of 2014, the most up-to-date version is HTML5, which introduced a number of new features to the language. For more details, see here: https://stackoverflow.com/questions/134727/whats-the-key-difference-between-html-4-and-html-5
 
 <details>
     <summary>Making an HTML File</summary>

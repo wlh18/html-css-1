@@ -71,7 +71,7 @@ HTML files are created by ending the name of a file with an `.html` extension. T
 <details>
     <summary>Syntax Overview</summary>
 
-HTML is based around using "tags" to create HTML "elements".
+HTML is based around filling "tags" with "content" in order to create HTML "elements".
 
 
 ```html

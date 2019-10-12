@@ -10,6 +10,7 @@
 
 * Student can describe what HTML is
 * Student can use the head tag to insert meta information about the page
+* Student can insert comments in HTML (?)
 * Student can change the title and icon of their webpage (?)
 * Student can use the body tag to specify what will be displayed
 * Student can use div, p, h1-h6, and span tags to layout a flow of information
@@ -18,25 +19,26 @@
 * Student can use img tags to bring in pictures
 * Student can use a tags to route to another webpage
 * Student can use link tags to bring in CSS files
-* Student can describe the box-model (?)
-* Student can explain box-sizing: border-box (?)
 * Student can use and describe inline, inline-block, and block level elements (?)
 * Student can use the class and id attributes (?)
 * Student can utilize and understand the benefits of semantic HTML (?)
-* Student can understand the difference between px, %, vh/vw, em, and rem (?)
+* Student can visualize HTML/CSS in terms of boxes/containers (?)
 
 ### CSS
 
 * Student can describe what CSS is
+* Student can bring in and use a new font in a project
 * Student can apply properties to an element, class, and id
 * Student can use the font and color properties
 * Student can use text-align property
-* Student can use background property to give colors or images for backgrounds
+* Student can use background property to specify colors or images used for backgrounds
+* Student can describe the box-model (?)
+* Student can explain box-sizing: border-box (?)
 * Student can use height, width, margin, padding, and box-sizing properties
+* Student can describe the difference between px, %, vh/vw, em, and rem (?)
 * Student can use the float property
 * Student can use and describe a reset file
-* Student can bring in a new font into a project
-* Student understands the purpose of a mockup (?)
+* Student can understand and utilize a mockup (?)
 
 
 # HTML/CSS I Lecture Notes
@@ -59,7 +61,7 @@ HTML stands for Hyper Text Markup Language. HTML is used to create the infrastru
 <details>
     <summary>Making an HTML File</summary>
     
-We can create an HTML file by ending the name of the file with an `.html` extension. This will tell our browser and code editors to read the file as HTML. 
+HTML files are created by ending the name of a file with an `.html` extension. This extension tells browsers and code editors to read the file as HTML. 
 
 >Note: `index.html` is the standard name for a root HTML file since the browser looks for files called `index` by default.
 </details>
@@ -74,12 +76,12 @@ HTML is based around using "tags" to create HTML "elements".
     <thisisatag>This is the content</thisisatag>
 ```
 
-Above we can see the basic syntax of an HTML element.
+Above is the basic syntax of an HTML element.
 
-1. First is the tag itself. We declare HTML tags using angle brackets `<>`, with the name for the tag contained within the `<>` brackets.
+1. First is the tag itself. HTML tags are declared using angle brackets `<>`, with the name for the tag contained within the `<>` brackets.
 2. Most HTML tags come in pairs of opening and closing tags. The closing tag begins with a `/` immediately after the first angle bracket to indicate that it is corresponding closing pair of the HTML tag.
-3. Between the angle brackets is where we specify the type of tag we are using. There are various types of tags native to HTML, which we will cover shortly.
-4. We wrap the tags around the **content** that we want stored inside that HTML tag. The content together with the tag creates an HTML element. 
+3. Between the angle brackets is where developers specify the type of tag they are using. There are various types of tags native to HTML, which will be covered shortly.
+4. Tags are wrapped around the **content** that is stored inside that HTML tag. The content together with the tag creates an HTML element. 
 
 >Note: Some elements are called "self-closing" or "void" elements because their tags should not be written in pairs. This is because they are not designed to contain content. See the example below:
 ```html
@@ -108,23 +110,23 @@ Here's an example of a basic HTML page structure:
 
 Now, let's break down the structure seen above.
 
-`<!DOCTYPE html>` - This tag is pretty unique, and it's actually not an HTML element; it's an instruction to your web browser so that it knows what type of file to expect. 
->Note: Always make sure that this is the first declaration in your HTML document, otherwise your page may not work.
+`<!DOCTYPE html>` - This tag is pretty unique, and it's actually not an HTML element; it's an instruction to a web browser that lets it know what type of file to expect. 
+>Note: Always make sure that this is the first declaration in an HTML document, otherwise the page may not work.
 
-`<html>` - The html tag tells the browser that everything contained inside the tag should be read as html. We can use the `lang` "attribute" to specify the human language that the contents are written in. This element will act as the root tag for our file, which means that everything will be contained inside of this tag. 
+`<html>` - The html tag tells the browser that everything contained inside the tag should be read as html. The `lang` "attribute" can be used to specify the human language that the contents are written in. This element will act as the root tag for the file, which means that everything will be contained inside of this tag. 
 
 `<head>` - The head tag is a container used to contain "metadata" (data about data). Metadata is what is used to define the title of the document, character set, and other details that are relevant for accessibility and SEO. Metadata is not displayed on the web page for the user.
 
-`<title>` - This is a metadata tag that will contain the title of our document. 
->Fun Fact: The title determines what words are displayed on the web page tab. 
+`<title>` - This is a metadata tag that will contain the title of the document. 
+>Fun Fact: The title determines which words are displayed on the web page tab. 
 
-`<body>` - The body tag is the container for all the elements that will make up our web page. Everything inside of our body tag will be displayed on the web page. This is where we will store our elements such as divs, spans, hyperlinks, text, etc.
+`<body>` - The body tag is the container for all the elements that will make up a web page. Everything inside of the body tag will be displayed on the web page. This is where developers will store elements such as divs, spans, hyperlinks, text, etc.
 </details>
 
 <details>
     <summary>Comments In HTML</summary>
 
-We can write comments in our code to help clarify what's going on in the development environment. Comments will not appear in the browser, so they're not intended to be used for users. Comments are an excellent way to communicate with other developers, and even our future selves, what's supposed to be going on in our code.
+Comments can be written in HTML code to help clarify what's going on in the development environment. Comments will not appear in the browser, so they're not necessarily intended to be viewed by the users of a site. Comments are instead an excellent way to communicate with other developers, and even ourselves, about what's supposed to be going on in the code.
 
 Comments begin with `<!--` and close with `-->`.
 
@@ -137,9 +139,9 @@ Comments begin with `<!--` and close with `-->`.
 
 ### Meta Tags
 
-Meta tags are a place to provide information about your site that can be used by search engines and other software. Web crawlers and search engines use the metadata contained within meta tags to evaluate, rank, and sort through websites. Good usage of metatags can help optimize a site's ranking in search results. 
+Meta tags are used to provide information about a site that can be used by search engines and other software. Web crawlers and search engines use the metadata contained within meta tags to evaluate, rank, and sort through websites. Good usage of metatags can help optimize a site's ranking in search results. 
 
->Note: Meta tags need to be placed inside the `<head>` tag of your file.
+>Note: Meta tags need to be placed inside the `<head>` tag of the file.
 
 ```html
 <head>
@@ -150,7 +152,7 @@ Meta tags are a place to provide information about your site that can be used by
     <meta name="keywords" content="greatest, best, ultimate, GOAT, website, of all time">
     <!-- keywords are used to help search engines recognize what search words can be used to point users toward a site-->
     <meta name="author" content="matias perez-ferrero">
-    <!-- straightforwardly enough, the author tag serves to credit the creator of a website -->
+    <!-- the author tag serves to credit the creator of a website -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- a browser viewport is the area of web page in which the content is visible to the user. The width attribute can be used to set a specific width in pixels of the intended display. Here it is set to a special value (“width= device-width”) which is the width of the device in terms of CSS pixels at a scale of 100%. The initial-scale property governs the zoom level when the page is loaded for the first time. -->
 </head>
@@ -169,18 +171,18 @@ Notice how the tag names imply some significant meaning about their contents. Ap
 When it comes to making your sites more accessible, here are three easy tips to follow: 
 1. Always use the semantic tag alternative if it's an option
 1. Attach labels to each of your `<input />` elements
-1. Use a `<button>` tag whenever you use an `onClick` event handler.
+1. Use a `<button>` tag whenever you use an `onClick` event handler. For more reasons on why you should try to always use buttons with onClicks, see here: https://blog.benmyers.dev/clickable-divs/
 
 >Note: As of Oct. 2019, the Supreme Court has cleared the way for discrimination law suits against websites that are not accessible to people with disabilities. The Supreme Court let stand a ruling that the Americans With Disabilities act requires web pages to be equally accessible as any other utility to those with disabilities. This means that creating accessible websites will be legally mandatory in the near future. In light of this, be aware that chrome has developer tools that can help audit accessibility issues, and you can also add this extension that provides more advanced features for discovering accessibility issues: https://chrome.google.com/webstore/detail/axe-web-accessibility-tes/lhdoppojpmngadmnindnejefpokejbdd?hl=en-US 
 
 ### Common Tags In HTML
 
-There are many different tags that we can use to create HTML elements. Here, we will review the more commonly used HTML tags. 
+There are many different tags that can be used to create HTML elements. Here, we will review the more commonly used HTML tags. 
 
 <details>
     <summary>Heading Tags</summary>
 
-Heading tags are used to create headers for content on a webpage. Heading tags can come with built-in font size and weight variations corresponding to their level, depending on the browser. These can be removed with a reset CSS file, or customized using your own stylesheets. 
+Heading tags are used to create headers for content on a webpage. Heading tags can come with built-in font size and weight variations corresponding to their level, depending on the browser. These can be removed with a reset CSS file, or customized by developers using their own stylesheets. 
 
 There are 6 levels of heading tags that are available for use. The lower the number of the heading is, the more important it is.
 
@@ -197,7 +199,7 @@ There are 6 levels of heading tags that are available for use. The lower the num
 <details>
     <summary>Nav Tags</summary>
     
-The `<nav>` tag defines a set of navigation links. Browsers, such as screen readers for disabled users, can use the nav element to determine whether to omit the initial rendering of the content.
+The `<nav>` tag defines a set of navigation links. Screen readers for disabled users can use the nav element to determine whether to omit the initial rendering of the content, which increases performance of the site and software.
 >Note: Not all links of a document should be inside a `<nav>` element. The `<nav>` element is intended only for major blocks of navigation links.
 </details>
 
@@ -214,15 +216,15 @@ The `<p>` tag can be used to declare that an element will be a paragraph.
 <details>
     <summary>Div and Section Tags</summary>
 
-The `<div>` tag represents a division or a section within our web page. It is not semantic, as it doesn't imply anything about the contents of the tag. Div tags are often used as a container, or wrapper, for other elements in order to arrange the inner elements or apply some javascript functionality. 
+The `<div>` tag represents a division or a section within a web page. It is not semantic, as it doesn't imply anything about the contents of the tag. Div tags are often used as a container, or wrapper, for other elements in order to arrange the inner elements or apply some javascript functionality. 
 
 ```html
 <div>
-    <p>I'm using a div tag to create a division within my web page to house a paragraph tag</p>
+    <p>I'm using a div tag to create a division within my web page that "houses," "wraps," or "contains" a paragraph tag</p>
 </div>
 ```
 
-A semantic alternative to the `<div>` tag is the `<section>` tag. It can be used the same way that you would use a `<div>` tag, but it implies that this is a meaningful section of your web page. 
+A semantic alternative to the `<div>` tag is the `<section>` tag. It can be used the same way that one would use a `<div>` tag, but it implies that the content is a meaningful section of the web page. 
 
 ```html
 <section>
@@ -234,9 +236,9 @@ A semantic alternative to the `<div>` tag is the `<section>` tag. It can be used
 <details>
     <summary>Span Tags</summary>
 
-The `<span>` tag is used to group inline elements in our document. The span tag does not provide any visual changes on its own.
+The `<span>` tag is used to group inline elements in the document. The span tag does not provide any visual changes on its own.
 
-We can use span tags, in conjuction with ids or classes, as a "hook" inside of another element to apply more specific styling or functionality to that content. 
+Span tags can be used, in conjuction with ids or classes, as a "hook" inside of another element to apply more specific styling or functionality to that content. 
 
 ```html
 <span>
@@ -329,7 +331,7 @@ Common attributes:
 * `src` - image tags can use the src attribute to specify the source path or file name of the image displayed
 * `height` - the height attribute is used to assign a height to an element. It can take values of `px`, `%`, `vh`, `em`, or `rem`
 >Note: Using `box-sizing: border-box` will affect how height is rendered. 
-* `width` -the width attribute it similarly used to assign a width to an element. It can take values of `px`, `%`, `vh`, `em`, or `rem`
+* `width` - the width attribute it similarly used to assign a width to an element. It can take values of `px`, `%`, `vh`, `em`, or `rem`
 
 ### Separation Tags
 
@@ -366,58 +368,62 @@ Syntax:
 </ol>
 ```
 
-### Input
+### Inputs
 
-Input boxes are way we can capture user input. We can use an `<input>` tag to create the input elements in our HTML.
+Input boxes are commonly used to capture user input. `<input />` tags are used create input elements in HTML.
 
-Input tags will need a `type` attribute applied in order to know what kind of input field we should use. If there is not one applied, it will default to `type="text"` which is just a normal input box a user can type in.
+Input tags will need a `type` attribute applied in order to know what kind of input will be inserted. If there is not one applied, it will default to `type="text"` which is just a normal input box a user can type in. Below are some of the different types of inputs
 
-Different types of inputs:
+>Note: `<input />` tags are an example of one of the more commonly used "self-closing" or "void" elements in HTML. They should *NOT* be written in pairs.
 
-* `<input type="button">` 
-* `<input type="checkbox">`
-* `<input type="color">`
-* `<input type="date">`
-* `<input type="datetime-local">`
-* `<input type="email">`
-* `<input type="file">`
-* `<input type="hidden">`
-* `<input type="image">`
-* `<input type="month">`
-* `<input type="number">`
-* `<input type="password">`
-* `<input type="radio">`
-* `<input type="range">`
-* `<input type="reset">`
-* `<input type="search">`
-* `<input type="submit">`
-* `<input type="tel">`
-* `<input type="text">`
-* `<input type="time">`
-* `<input type="url">`
+<details>
+    <summary>Different Types of Inputs</summary>
+
+* `<input type="button" />` 
+* `<input type="checkbox" />`
+* `<input type="color" />`
+* `<input type="date" />`
+* `<input type="datetime-local" />`
+* `<input type="email" />`
+* `<input type="file" />`
+* `<input type="hidden" />`
+* `<input type="image" />`
+* `<input type="month" />`
+* `<input type="number" />`
+* `<input type="password" />`
+* `<input type="radio" />`
+* `<input type="range" />`
+* `<input type="reset" />`
+* `<input type="search" />`
+* `<input type="submit" />`
+* `<input type="tel" />`
+* `<input type="text" />`
+* `<input type="time" />`
+* `<input type="url" />`
+</details>
 
 ### Buttons
 
-Buttons are a great way to prompt a user to interact and perform an action on your web page.
+Buttons are a great way to enable users to interact with a web page.
 
-`<button>` - this is the tag we can use to create a button.
+`<button>` - this is the tag used to create a button.
 
-We will need to implement javascript to create the functionality of the button
+In order to make buttons interactive, an event handling attribute, like `onClick` would need to be added. Events will be covered in the near future, so don't worry about them for now. Here's an example of what a button might look like:
 
 ```html
-<button>Cool Button!</button>
+<button onClick="someFunction()">Cool Button!</button>
 ```
 
 ### Images
 
-We can embed images into our web page by using the `<img>` tag.
+Images can be embedded into a web page via the `<img>` tag.
 
-We need to apply the `src` attribute to determine what image to show.
+The `src` attribute is necessary to specify the source of the image shown. It can be a relative, local path, or a URL to some external source.
 
-Images also use an `alt` attribute to determine what text to show if that image is unavailable.
+Image elements can also use an `alt` attribute to specify text that will display if the image source can't be loaded. Including descriptive `alt` tags is another way to enable a better experience for users with disabilities, as screen readers can read out the alt tag for visually impaired users. 
 
 ```html
-<img src="images/dog.png" alt="cute puppy" height="500" width="500"/>
+<img src="https://images.unsplash.com/photo-1560807707-8cc77767d783?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80" alt="long coated white and brown puppy lying on a bed" height="500" width="500"/>
 ```
 
 ### Form

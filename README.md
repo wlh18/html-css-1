@@ -287,7 +287,7 @@ Inline level elements *DO NOT* start on a new line and will only take up as much
 1. Cannot be assigned a width and height
 1. Respect left and right margins and padding, but *not* vertical margins and padding
 
->Note: Inline elements can be given vertical padding and borders of their own, but they will not push away other elements. These is tricky to wrap your head around, so check out this article for more details on inline-level elements: https://hacks.mozilla.org/2015/03/understanding-inline-box-model/
+>Note: Inline elements can be given vertical padding and borders of their own, but they will not push away other elements. This concept is easily confused, so check out this article for more details on inline-level elements: https://hacks.mozilla.org/2015/03/understanding-inline-box-model/
 
 Here are some common elements that are assigned `display:inline` by default:
 
@@ -307,11 +307,13 @@ Inline-block elements are placed as inline elements (on the same line as adjacen
 1. Allow other elements to sit to their left and right
 1. Respect top and bottom margins and padding
 1. Respect height and width
+
+HTML elements are not given `display: inline-block` by default. Inline-block can only be manually defined. 
 </details>
 
 ### Tag Attributes
 
-Attributes are used in HTML to provide extra information to a tag. All tags can have attributes and will always be placed in the opening or start tag.
+Attributes are used in HTML to provide extra information or features to a tag. All tags can have attributes, and attributes should always be placed in the opening tag. 
 
 Basic Syntax for an attribute:
 
@@ -319,27 +321,26 @@ Basic Syntax for an attribute:
 <tagname attributeName="attributeValue">content</tagname>
 ```
 
-1. The attribute has a name and a value, the value is set to the name and is wrapped in quotes
-2. The attribute is set on the opening tag
-3. Attributes use a key/value pairs
+The attribute above has both a name and a value. The value is *assigned* to the name, and is wrapped in quotes. Notice also that the attribute is declared and assigned in the opening tag. 
 
 Common attributes:
 
-* `href` - the href attribute is commonly paired with an `a` tag and declares the URL to link to
-* `src` - image tags commonly use the src tag to determine the source or file name of the image being shown
-* `height` - height is another common one used with image tags to determine the height of the image
-* `width` - width is another one commonly used with image tags to determine the width of an image
+* `href` - the href attribute is commonly paired with an `<a>` tag, and it is used to specify a URL path to link to
+* `src` - image tags can use the src attribute to specify the source path or file name of the image displayed
+* `height` - the height attribute is used to assign a height to an element. It can take values of `px`, `%`, `vh`, `em`, or `rem`
+>Note: Using `box-sizing: border-box` will affect how height is rendered. 
+* `width` -the width attribute it similarly used to assign a width to an element. It can take values of `px`, `%`, `vh`, `em`, or `rem`
 
 ### Separation Tags
 
-There are tags we can use to create a separation between our elements. The tags we can use are `<hr>` and `<hr>`.
+There are a couple of tags that can be used to create space or separation between elements. These tags are `<hr>` and `<br>`.
 
 * `<hr>` - this tag is used to create white space between elements
-* `<br>` - this tag is used to create an actual line to split the elements
+* `<br>` - this tag is used to insert a single line break between elements
 
 ### Lists
 
-There are two kind of lists we can create in HTML, the ordered and unordered list.
+There are two kinds of lists that can be created in HTML. They are known as ordered, or unordered lists. Each type of list is comprised of list items.
 
 `<ul>` - this is the tag used to create an unordered list
 * This will create a list-like structure using bullet poiints
@@ -347,7 +348,7 @@ There are two kind of lists we can create in HTML, the ordered and unordered lis
 `<ol>` - this is the tag used to create an ordered list
 * This will create a list-like structure using numbers
 
-`<li>` - this is the tag we will use to declare the content is a part of a list. It is short for `list item`
+`<li>` - this is the tag used to indicate that the content is a part of the list. It is short for "list item."
 
 Syntax:
 

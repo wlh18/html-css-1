@@ -63,6 +63,7 @@ HTML stands for Hyper Text Markup Language. HTML is used to create the infrastru
 ### Setting Up HTML
 <details>
     <summary>Information</summary>
+    
 #### Making an HTML File
     
 HTML files are created by ending the name of a file with an `.html` extension. This extension tells browsers and code editors to read the file as HTML. 

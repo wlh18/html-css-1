@@ -60,21 +60,18 @@ HTML stands for Hyper Text Markup Language. HTML is used to create the infrastru
 
 >Note: Over the years, there have been many versions of HTML. As of 2014, the most up-to-date version is HTML5, which introduced a number of new features to the language. For more details, see here: https://stackoverflow.com/questions/134727/whats-the-key-difference-between-html-4-and-html-5
 
-### Making an HTML File
+### Setting Up HTML
 <details>
     <summary>Information</summary>
+#### Making an HTML File
     
 HTML files are created by ending the name of a file with an `.html` extension. This extension tells browsers and code editors to read the file as HTML. 
 
 >Note: `index.html` is the standard name for a root HTML file since the browser looks for files called `index` by default.
-</details>
 
-### HTML Syntax Overview
-<details>
-    <summary>Information</summary>
+#### HTML Syntax Overview
 
 HTML is based around filling "tags" with "content" in order to create HTML "elements".
-
 
 ```html
     <thisisatag>This is the content</thisisatag>
@@ -92,11 +89,8 @@ Above is the basic syntax of an HTML element.
     <input />
 ```
 >Notice that there is only one tag, and it uses a forward slash at the ending of the tag.
-</details>
 
-### Comments in HTML
-<details>
-    <summary>Information</summary>
+#### Comments in HTML
 
 Comments can be written in HTML code to help clarify what's going on in the development environment. Comments will not appear in the browser, so they're not necessarily intended to be viewed by the users of a site. Comments are instead an excellent way to communicate with other developers, and even ourselves, about what's supposed to be going on in the code.
 
@@ -107,11 +101,8 @@ Comments begin with `<!--` and close with `-->`.
     <!-- This is a comment that will not be displayed on the web page -->
 </body>
 ```
-</details>
 
-### Basic HTML Page Structure
-<details>
-    <summary>Information</summary>
+#### Basic HTML Page Structure
 
 Here's an example of a basic HTML page structure: 
 
@@ -141,9 +132,8 @@ Now, let's break down the structure seen above.
 >Fun Fact: The title determines which words are displayed on the web page tab. 
 
 `<body>` - The body tag is the container for all the elements that will make up a web page. Everything inside of the body tag will be displayed on the web page. This is where developers will store elements such as divs, spans, hyperlinks, text, etc.
-</details>
 
-### Meta Tags
+#### Meta Tags
 
 Meta tags are used to provide information about a site that can be used by search engines and other software. Web crawlers and search engines use the metadata contained within meta tags to evaluate, rank, and sort through websites. Good usage of metatags can help optimize a site's ranking in search results. 
 
@@ -166,6 +156,7 @@ Meta tags are used to provide information about a site that can be used by searc
     <!-- a browser viewport is the area of web page in which the content is visible to the user. The width attribute can be used to set a specific width in pixels of the intended display. Here it is set to a special value (“width= device-width”) which is the width of the device in terms of CSS pixels at a scale of 100%. The initial-scale property governs the zoom level when the page is loaded for the first time. -->
 </head>
 ```
+</details>
 </details>
 
 ### Semantic HTML

@@ -519,14 +519,14 @@ There are three main ways to write CSS:
 
 1. **Inline CSS** - Inline CSS is created per element by using the `style` attribute on the element. Inline CSS is not considered best-practice as it bloats files and makes it impossible to make more broad styling changes or pin point where the styling of a document is coming from. 
 
-Example: 
+Inline CSS Example: 
 ```html
 <button style="color:blue;font-size:12px">Button Text</button>
 ```
 
 2. **Internal CSS** - Internal CSS is when CSS written inside of the `<style>` tag of an HTML document. Internal CSS can bloat a file and make it more difficult to comprehend, and is consequently not considered best-practice. 
 
-Example: 
+Internal CSS Example: 
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -546,7 +546,7 @@ Example:
 
 3. **External CSS** - External CSS is when CSS is brought in via an external stylesheet separate to the HTML file, and then brought in using a `<link>` tag in the `<head>` of an HTML document. The `href` attribute of the `<link` should point to the stylesheet, and the `type` attribute should specify that the file is a stylesheet. External CSS is is considered good practice, as it enables isolation and clarity of code. 
 
-Example: 
+External CSS Example: 
 
 ```html
 <head>

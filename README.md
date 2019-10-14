@@ -352,7 +352,7 @@ The `src` attribute is necessary to specify the source of the image shown. It ca
 Image elements can also use an `alt` attribute to create text that will display if the image source can't be loaded. Including descriptive `alt` tags is another way to enable a better experience for users with disabilities, as screen readers can read out the alt tag for visually impaired users. 
 
 ```html
-<img src="https://images.unsplash.com/photo-1560807707-8cc77767d783?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80" alt="long coated white and brown puppy lying on a bed" height="500" width="500"/>
+<img alt="long coated white and brown puppy lying on a bed" height="500" width="500" src="https://images.unsplash.com/photo-1560807707-8cc77767d783?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80"/>
 ```
 </details>
 

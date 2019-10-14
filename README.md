@@ -60,7 +60,7 @@ HTML stands for Hyper Text Markup Language. HTML is used to create the infrastru
 
 >Note: Over the years, there have been many versions of HTML. As of 2014, the most up-to-date version is HTML5, which introduced a number of new features to the language. For more details, see here: https://stackoverflow.com/questions/134727/whats-the-key-difference-between-html-4-and-html-5
 
-### Setting Up HTML
+### Set Up and Basics
 <details>
     <summary>Information</summary>
     

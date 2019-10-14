@@ -160,7 +160,7 @@ Below are some example Meta Tags:
 
 ### Semantic HTML
 
-Semantic elements are elements that also communicate some meaning, as opposed to being used simply for display. Semantic HTML is crucial for accessibility issues and Search Engine Optimization (SEO). 
+Semantic HTML is HTML that introduces context or meaning to the structure of a webpage, instead of using elements simply for display.  Semantic HTML is crucial for accessibility issues and Search Engine Optimization (SEO). 
 
 Examples of nonsemantic HTML: `<div>, <span>`
 

@@ -140,8 +140,7 @@ Meta tags are used to provide information about a site that can be used by searc
 
 >Note: Meta tags need to be placed inside the `<head>` tag of the file.
 
-<details>
-    <summary>Example Meta Tags</summary>
+Below are some example Meta Tags:
 
 ```html
 <head>
@@ -157,7 +156,6 @@ Meta tags are used to provide information about a site that can be used by searc
     <!-- a browser viewport is the area of web page in which the content is visible to the user. The width attribute can be used to set a specific width in pixels of the intended display. Here it is set to a special value (“width= device-width”) which is the width of the device in terms of CSS pixels at a scale of 100%. The initial-scale property governs the zoom level when the page is loaded for the first time. -->
 </head>
 ```
-</details>
 </details>
 
 ### Semantic HTML

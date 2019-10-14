@@ -364,11 +364,12 @@ Here's a visual representation of differences between the properties:
 
 ![inline-inline-block-block](images/inline-inline-block-block.png)
 
-Now let's explore some more of the features of each. 
+See below for more information on the differences in each.
+
+<details>
+    <summary>Inline, Inline-block, Block Information</summary>
 
 #### Block Level
-<details>
-    <summary>Block Level Information</summary>
 
 Block level elements have some whitespace above and below the element. Block level elements also do the following: 
 
@@ -386,11 +387,8 @@ Here are some common elements that are assigned `display: block` by default:
 * `<footer>`
 * `<nav>`
 * `<div>`
-</details>
 
 #### Inline Level
-<details>
-    <summary>Inline Level Information</summary>
 
 Inline level elements *DO NOT* start on a new line and will only take up as much width as needed. They have no line breaks before or after the element. They also do the following: 
 
@@ -407,11 +405,8 @@ Here are some common elements that are assigned `display:inline` by default:
 * `<label>`
 * `<br>`
 * `<span>`
-</details>
 
 #### Inline-block Level
-<details>
-    <summary>Inline-block Information</summary>
 
 Inline-block elements are placed as inline elements (on the same line as adjacent content), but they otherwise behave like block level elements. Inline-block level elements also do the following: 
 

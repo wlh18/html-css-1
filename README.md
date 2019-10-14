@@ -94,6 +94,21 @@ Above is the basic syntax of an HTML element.
 >Notice that there is only one tag, and it uses a forward slash at the ending of the tag.
 </details>
 
+### Comments in HTML
+<details>
+    <summary>Information</summary>
+
+Comments can be written in HTML code to help clarify what's going on in the development environment. Comments will not appear in the browser, so they're not necessarily intended to be viewed by the users of a site. Comments are instead an excellent way to communicate with other developers, and even ourselves, about what's supposed to be going on in the code.
+
+Comments begin with `<!--` and close with `-->`.
+
+```html
+<body>
+    <!-- This is a comment that will not be displayed on the web page -->
+</body>
+```
+</details>
+
 ### Basic HTML Page Structure
 <details>
     <summary>Information</summary>
@@ -126,21 +141,6 @@ Now, let's break down the structure seen above.
 >Fun Fact: The title determines which words are displayed on the web page tab. 
 
 `<body>` - The body tag is the container for all the elements that will make up a web page. Everything inside of the body tag will be displayed on the web page. This is where developers will store elements such as divs, spans, hyperlinks, text, etc.
-</details>
-
-### Comments in HTML
-<details>
-    <summary>Information</summary>
-
-Comments can be written in HTML code to help clarify what's going on in the development environment. Comments will not appear in the browser, so they're not necessarily intended to be viewed by the users of a site. Comments are instead an excellent way to communicate with other developers, and even ourselves, about what's supposed to be going on in the code.
-
-Comments begin with `<!--` and close with `-->`.
-
-```html
-<body>
-    <!-- This is a comment that will not be displayed on the web page -->
-</body>
-```
 </details>
 
 ### Meta Tags

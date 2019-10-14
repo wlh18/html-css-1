@@ -419,6 +419,35 @@ We can create tables to organize content in HTML by using a `<table>` tag.
 ```
 </details>
 
+
+### Tag Attributes
+
+Attributes are used in HTML to provide extra information or features to a tag. All tags can have attributes, and attributes should always be placed in the opening tag.
+
+<details>
+    <summary>Tag Attributes Information</summary>
+
+Here's the basic syntax for assigning an attribute:
+
+```html
+<tagname attributeName="attributeValue">content</tagname>
+```
+
+The attribute above has both a name and a value. The value is *assigned* to the name, and is wrapped in quotes. Notice also that the attribute is declared and assigned in the opening tag, not the closing tag. 
+
+Common attributes:
+
+* `id` - the id attribute is used to assign a specific id to an element. This will help us target the desired element when adding in styling or functionality through CSS or JavaScript. 
+>Note: There can only be one id assigned per tag. Also, ids should be unique and used only once.   
+* `class` - the class attribute is used to assign a specific class to an element. Similar to ids, classes let us target desired elements for styling or functionality, but they are designed to be used across many elements at a time. 
+>Note: Elements can have multiple classes.
+* `href` - the href attribute is commonly paired with an `<a>` tag, and it is used to specify a URL path to link to
+* `src` - image tags can use the src attribute to specify the source path or file name of the image displayed
+* `height` - the height attribute is used to assign a height to an element. It can take values of `px`, `%`, `vh`, `em`, or `rem`
+>Note: Using `box-sizing: border-box` will affect how height is rendered. 
+* `width` - the width attribute it similarly used to assign a width to an element. It can take values of `px`, `%`, `vh`, `em`, or `rem`
+</details>
+
 ### Inline, Block, and Inline-Block Elements
 
 Every HTML element has a default display property value assigned depending on the tag used. The two default display values are: `inline` and `block`. You can also assign an `inline-block` value to the display property. 
@@ -478,34 +507,6 @@ Inline-block elements are placed as inline elements (on the same line as adjacen
 1. Respect height and width
 
 HTML elements are not given `display: inline-block` by default. Inline-block can only be manually defined. 
-</details>
-
-### Tag Attributes
-
-Attributes are used in HTML to provide extra information or features to a tag. All tags can have attributes, and attributes should always be placed in the opening tag.
-
-<details>
-    <summary>Tag Attributes Information</summary>
-
-Here's the basic syntax for assigning an attribute:
-
-```html
-<tagname attributeName="attributeValue">content</tagname>
-```
-
-The attribute above has both a name and a value. The value is *assigned* to the name, and is wrapped in quotes. Notice also that the attribute is declared and assigned in the opening tag, not the closing tag. 
-
-Common attributes:
-
-* `id` - the id attribute is used to assign a specific id to an element. This will help us target the desired element when adding in styling or functionality through CSS or JavaScript. 
->Note: There can only be one id assigned per tag. Also, ids should be unique and used only once.   
-* `class` - the class attribute is used to assign a specific class to an element. Similar to ids, classes let us target desired elements for styling or functionality, but they are designed to be used across many elements at a time. 
->Note: Elements can have multiple classes.
-* `href` - the href attribute is commonly paired with an `<a>` tag, and it is used to specify a URL path to link to
-* `src` - image tags can use the src attribute to specify the source path or file name of the image displayed
-* `height` - the height attribute is used to assign a height to an element. It can take values of `px`, `%`, `vh`, `em`, or `rem`
->Note: Using `box-sizing: border-box` will affect how height is rendered. 
-* `width` - the width attribute it similarly used to assign a width to an element. It can take values of `px`, `%`, `vh`, `em`, or `rem`
 </details>
 
 ## CSS

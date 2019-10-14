@@ -356,6 +356,69 @@ Image elements can also use an `alt` attribute to create text that will display 
 ```
 </details>
 
+<details>
+    <summary>Form Tags</summary>
+
+A `<form>` tag can be used to create a form element in HTML. Forms are used to collect user input. 
+
+An HTML form can contain one or more of the following `form elements`: 
+* `<input />`
+* `<textarea>`
+* `<button>`
+* `<select>`
+* `<option>`
+* `<section>`
+* `<option>`
+* `<optgroup`
+* `<fieldset>`
+* `<label>`
+* `<output>`
+
+>Note: `<label>` tags can be used to assign a label to other elements within a form by referencing their `id` attribute. Using labels is a great practice for boosting the accessibility of your site, as screen readers can inform users which input field does what. Additionally, mouse users can click on the label to toggle the control of the corresponding input field.
+
+See the example form below: 
+
+```html
+<form>
+    <label for="first-name">First Name:</label>
+    <input type="text" name="first-name" />
+    <label for="last-name">Last Name:</label>
+    <input type="text" name="lastname" />
+    <input type="submit" value="Submit" />
+</form>
+```
+</details>
+
+<details>
+    <summary>Table Tags</summary>
+
+We can create tables to organize content in HTML by using a `<table>` tag.
+* Every table row is created using the `<tr>` tag.
+* A table header column is created using the `<th>` tag
+* a table cell is defined using the `<td>` tag
+
+```html
+<table>
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+  </tr>
+  <tr>
+    <td>Matt</td>
+    <td>Bodily</td> 
+  </tr>
+  <tr>
+    <td>Matias</td>
+    <td>Perez-Ferrero</td> 
+  </tr>
+  <tr>
+    <td>Rob</td>
+    <td>Knowles</td> 
+  </tr>
+</table>
+```
+</details>
+
 ### Inline, Block, and Inline-Block Elements
 
 Every HTML element has a default display property value assigned depending on the tag used. The two default display values are: `inline` and `block`. You can also assign an `inline-block` value to the display property. 
@@ -444,65 +507,6 @@ Common attributes:
 >Note: Using `box-sizing: border-box` will affect how height is rendered. 
 * `width` - the width attribute it similarly used to assign a width to an element. It can take values of `px`, `%`, `vh`, `em`, or `rem`
 </details>
-
-### Form
-
-A `<form>` tag can be used to create a form element in HTML. Forms are used to collect user input. 
-
-An HTML form can contain one or more of the following `form elements`: 
-* `<input />`
-* `<textarea>`
-* `<button>`
-* `<select>`
-* `<option>`
-* `<section>`
-* `<option>`
-* `<optgroup`
-* `<fieldset>`
-* `<label>`
-* `<output>`
-
->Note: `<label>` tags can be used to assign a label to other elements within a form by referencing their `id` attribute. Using labels is a great practice for boosting the accessibility of your site, as screen readers can inform users which input field does what. Additionally, mouse users can click on the label to toggle the control of the corresponding input field.
-
-See the example form below: 
-
-```html
-<form>
-    <label for="first-name">First Name:</label>
-    <input type="text" name="first-name" />
-    <label for="last-name">Last Name:</label>
-    <input type="text" name="lastname" />
-    <input type="submit" value="Submit" />
-</form>
-```
-
-### Tables
-
-We can create tables to organize content in HTML by using a `<table>` tag.
-* Every table row is created using the `<tr>` tag.
-* A table header column is created using the `<th>` tag
-* a table cell is defined using the `<td>` tag
-
-```html
-<table>
-  <tr>
-    <th>Firstname</th>
-    <th>Lastname</th> 
-  </tr>
-  <tr>
-    <td>Matt</td>
-    <td>Bodily</td> 
-  </tr>
-  <tr>
-    <td>Matias</td>
-    <td>Perez-Ferrero</td> 
-  </tr>
-  <tr>
-    <td>Rob</td>
-    <td>Knowles</td> 
-  </tr>
-</table>
-```
 
 ## CSS
 

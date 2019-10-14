@@ -174,7 +174,7 @@ Semantic elements are elements that also communicate some meaning, as opposed to
 
 Examples of nonsemantic HTML: `<div>, <span>`
 
-Examples of semantic HYTML: `<footer>, <header>, <nav>, <form>, <table>, <article>, <main>, <section>`
+Examples of semantic HTML: `<footer>, <header>, <nav>, <form>, <table>, <article>, <main>, <section>`
 
 <details>
     <summary>Semantic HTML Information</summary>

@@ -517,7 +517,7 @@ CSS, which stands for Cascading Style Sheets, is another building block language
     <summary>Information</summary>
 There are three main ways to write CSS:
 
-1. **Inline CSS** - Inline CSS is created per element by using the `style` attribute on the element. Inline CSS is not considered best-practice as it bloats files and makes it impossible to make more broad styling changes or pin point where the styling of a document is coming from. 
+1. **Inline CSS** - Inline CSS is created per element by using the `style` attribute on the element. Inline CSS is not considered best-practice as it bloats files, it makes it difficult to make broad styling changes, and it can become difficult to pin point where the styling of a page is coming from. 
 
 Inline CSS Example: 
 ```html
@@ -553,20 +553,54 @@ External CSS Example:
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
 ```
->Note: `<link>` tags can be used to bring in other files that are not necessarily stylesheets.
+>Note: `<link>` tags can also be used to bring in other types of external resources that are not stylesheets.
 </details>
 
-### Selectors
+### CSS Selectors
 
-Selectors are used in CSS to determine what element we want to apply a specific styling to. Selectors are followed by a set of curly braces that is known as the `declaration`. Inside the declaration, we will use key/value pairs to select a property on the select element and apply value to that property.
+Selectors are patterns used to select the elements to be styled. Selectors are followed by a set of curly braces called  "declaration blocks", which contain individual semi-colon separated style declarations. The individual style declarations are comprised of two main parts, a property and a value for that property. 
+>Note: Each declaration block can contain multiple style declarations. 
+
+The general syntax for a declaration block and style declarations looks like this: 
 
 ```css
-div {
-    background-color: tomato;
+selector {
+    property1: value;
+    property2: value;
 }
 ```
 
-There are a few ways to select an element to apply styling to:
+Here are some of the more commonly used simple selectors along with example syntax: 
+
+* **Element selector** - selects HTML elements by their tag name
+* **Id selector** - selects HTML elements by their id attribute value. Id selectors are preceded by a `#`
+* **Class selector** - selects HTML elements by their class attribute value. Class selectors are preceded by a `.`
+* **Universal selector** - selects all HTML elements on the page using the `*` symbol
+
+Selectors can also be used with "combinators" for more specific styling. Below are some examples of combinators.
+
+<details>
+    <summary>Group selector (,)</summary>
+    
+    Combines multiple selectors to apply the same styling block. 
+    
+    Example: 
+    ``` css
+    div, p, h1, h2 {
+          background-color: tomato;
+    }
+    ```
+</details>
+* **Descendant selector (space)** - applies to the right-most selector, which is a descendant of the selector(s) to the left
+* **Child selector (>)** - targets *direct* children of a particular selector.
+* **Adjacent Sibling Selector (+)** - targets only the first sibling of a given selector if they share the same parent. 
+* **General Sibling Selector (~)** - in contrast to the adjacent sibling selector, the general sibling selector selects all instances of siblings to the first selector
+```css
+div ~ p{
+background-color:blue;
+} 
+```
+
 
 1. We select the tag, if we do this it will apply this style to all the tags that we have selected
 

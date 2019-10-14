@@ -443,8 +443,7 @@ Common attributes:
 >Note: Elements can have multiple classes.
 * `href` - the href attribute is commonly paired with an `<a>` tag, and it is used to specify a URL path to link to
 * `src` - image tags can use the src attribute to specify the source path or file name of the image displayed
-* `height` - the height attribute is used to assign a height to an element. It can take values of `px`, `%`, `vh`, `em`, or `rem`
->Note: Using `box-sizing: border-box` will affect how height is rendered. 
+* `height` - the height attribute is used to assign a height to an element. It can take values of `px`, `%`, `vh`, `em`, or `rem`. 
 * `width` - the width attribute it similarly used to assign a width to an element. It can take values of `px`, `%`, `vh`, `em`, or `rem`
 </details>
 

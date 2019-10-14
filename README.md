@@ -160,7 +160,7 @@ Below are some example Meta Tags:
 
 ### Semantic HTML
 
-Semantic HTML is HTML that introduces context or meaning to the structure of a webpage, instead of using elements simply for display.  Semantic HTML is crucial for accessibility issues and Search Engine Optimization (SEO). 
+Semantic HTML is HTML that introduces context or meaning to the structure of a webpage, instead of using elements simply for display. Appropriate usage of semantic HTML is critical for accessibility issues and Search Engine Optimization (SEO). 
 
 Examples of nonsemantic HTML: `<div>, <span>`
 
@@ -510,40 +510,50 @@ HTML elements are not given `display: inline-block` by default. Inline-block can
 
 ## CSS
 
-CSS stands for cascading style sheets. CSS is another one of the core languages of the web, but CSS is used mainly for creating style and layout of our HTML structure.
+CSS, which stands for Cascading Style Sheets, is another building block language of the web. CSS is a presentational language that is used only for the *styling* and *layout* of a page. CSS files are files that have the `.css` extension. 
 
-CSS is not a programming language, it is a styling language. We can add CSS to our HTML files.
+### How to Write CSS
 
-### Methods To Do CSS
+There are three main ways to write CSS:
 
-There are three main ways that we can do CSS:
+1. Inline CSS - Inline CSS is created per element by using the `style` attribute on the element. Inline CSS is not considered best-practice as it bloats files and makes it impossible to make more broad styling changes or pin point where the styling of a document is coming from. 
 
-1. Inline CSS
+Example: 
+```html
+<button style="color:blue;font-size:12px">Button Text</button>
+```
 
-This is where we use the `style=""` attribute on the opening tag of a HTML element.
-We should always try to avoid adding css this way.
+2. Internal CSS - Internal CSS is when CSS written inside of the `<style>` tag of an HTML document. Internal CSS can bloat a file and make it more difficult to comprehend, and is consequently not considered best-practice. 
 
-2. Internal CSS
+Example: 
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <style>
+          h1 {
+          background-color: blue;
+          }
+      </style>
+    <title>Document</title>
+  </head>
+  <body>
+      <h1>I'm a header</h1>
+  </body>
+</html>
+```
 
-This is where we can write our CSS in the same HTML file, but we encapsulate it inside of a `<style>` tag.
+3. External CSS - External CSS is when CSS is brought in via an external stylesheet separate to the HTML file, and then brought in using a `<link>` tag in the `<head>` of an HTML document. The `href` attribute of the `<link` should point to the stylesheet, and the `type` attribute should specify that the file is a stylesheet. External CSS is is considered good practice, as it enables isolation and clarity of code. 
 
-3. External CSS
-
-This is where we create a seperate style sheet to house our styling.
-
-To follow this pattern (which is the most common way to write css) we will need to make a style sheet that ends with the extension `.css`.
-Then we will need to link our style sheet to our HTML file. Inside of the `<head>` tag, we can use a `<link>` tag to link them together.
+Example: 
 
 ```html
 <head>
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
 ```
+>Note: `<link>` tags can be used to bring in other files that are not necessarily stylesheets.
 
-Above there are three attributes associated with the `<link>` tag to link the style sheet:
-1. `rel` - this is the attribute where we tell the HTML file what the relation is
-2. `type` - this is where we declare the type of file
-3. `href` - this is where we declare the path to the style sheet we want to use
 
 ### Selectors
 

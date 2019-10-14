@@ -582,17 +582,40 @@ Selectors can also be used with "combinators" for more specific styling. Below a
 <details>
     <summary>Group selector (,)</summary>
     
-    Combines multiple selectors to apply the same styling block. 
+   Combines multiple selectors to apply the same styling block. 
     
-    Example: 
-    ``` css
-    div, p, h1, h2 {
-          background-color: tomato;
+   Example: 
+   ```css
+   div, p, h1, h2 {
+        background-color: tomato;
+   }
+   ```
+    
+</details>
+
+<details>
+<summary>Descendant selector (space)</summary>
+
+Applies to the right-most selector, which is a descendant of the selector(s) to the left.
+```css
+    div p {
+        background-color: tomato;
+    }
+```
+</details>
+
+<details>
+    <summary>Child selector</summary>
+    
+   Targets only *direct* children of a particular selector. 
+   
+   Example: 
+    ```css
+    div>p {
+        background-color: tomato;
     }
     ```
 </details>
-* **Descendant selector (space)** - applies to the right-most selector, which is a descendant of the selector(s) to the left
-* **Child selector (>)** - targets *direct* children of a particular selector.
 * **Adjacent Sibling Selector (+)** - targets only the first sibling of a given selector if they share the same parent. 
 * **General Sibling Selector (~)** - in contrast to the adjacent sibling selector, the general sibling selector selects all instances of siblings to the first selector
 ```css

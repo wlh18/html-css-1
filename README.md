@@ -570,13 +570,35 @@ selector {
 }
 ```
 
+#### Example Selectors
 Here are some of the more commonly used simple selectors along with example syntax: 
 
+<details>
+    <summary>Element Selector</summary>
+    
+  The element selector selects HTML elements by their tag name.
+   
+  Example: 
+  ```css
+  nav {
+    background-color: purple;
+  }
+  ```
+</details>
+
+<details>
+    <summary>Id Selector</summary>
+    
+   Selects HTML elements by their id attribute value. Id selectors must be prefixed with an `#`. 
+    
+ 
+ </details>
 * **Element selector** - selects HTML elements by their tag name
 * **Id selector** - selects HTML elements by their id attribute value. Id selectors are preceded by a `#`
 * **Class selector** - selects HTML elements by their class attribute value. Class selectors are preceded by a `.`
 * **Universal selector** - selects all HTML elements on the page using the `*` symbol
 
+#### Combinators
 Selectors can also be used with "combinators" for more specific styling. Below are some examples of combinators.
 
 <details>
@@ -605,7 +627,7 @@ Applies to the right-most selector, which is a descendant of the selector(s) to 
 </details>
 
 <details>
-    <summary>Child selector</summary>
+    <summary>Child selector (>)</summary>
     
    Targets only *direct* children of a particular selector. 
    

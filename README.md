@@ -172,19 +172,19 @@ Meta tags are used to provide information about a site that can be used by searc
 
 Semantic elements are elements that also communicate some meaning, as opposed to being used simply for display. Semantic HTML is crucial for accessibility issues and Search Engine Optimization (SEO). 
 
-<details>
-    <summary>Semantic HTML Information</summary>
-
 Examples of nonsemantic HTML: `<div>, <span>`
 
 Examples of semantic HYTML: `<footer>, <header>, <nav>, <form>, <table>, <article>, <main>, <section>`
 
-Notice how the tag names imply some significant meaning about their contents. Appropriate usage of semantic HTML can boost a site's SEO, and also enable screen reading softwares to work more effectively for people with disabilities. 
+<details>
+    <summary>Semantic HTML Information</summary>
+
+Notice how semantic tag names imply some significant meaning about their contents. Appropriate usage of semantic HTML can boost a site's SEO, and also enable screen reading softwares to work more effectively for people with disabilities. 
 
 When it comes to making your sites more accessible, here are three easy tips to follow: 
 1. Always use the semantic tag alternative if it's an option
 1. Attach labels to each of your `<input />` elements
-1. Use a `<button>` tag whenever you use an `onClick` event handler. For more reasons on why you should try to always use buttons with onClicks, see here: https://blog.benmyers.dev/clickable-divs/
+1. Use a `<button>` tag whenever you use an `onclick` event handler. For more reasons on why you should try to always use a button with an onclick, see here: https://blog.benmyers.dev/clickable-divs/
 
 >Note: As of Oct. 2019, the Supreme Court has cleared the way for discrimination law suits against websites that are not accessible to people with disabilities. The Supreme Court let stand a ruling that the Americans With Disabilities act requires web pages to be equally accessible as any other utility to those with disabilities. This means that creating accessible websites will be legally mandatory in the near future. In light of this, be aware that chrome has developer tools that can help audit accessibility issues, and you can also add this extension that provides more advanced features for discovering accessibility issues: https://chrome.google.com/webstore/detail/axe-web-accessibility-tes/lhdoppojpmngadmnindnejefpokejbdd?hl=en-US 
 
@@ -231,7 +231,7 @@ The `<p>` tag can be used to declare that an element will be a paragraph.
 <details>
     <summary>Div and Section Tags</summary>
 
-The `<div>` tag represents a division or a section within a web page. It is not semantic, as it doesn't imply anything about the contents of the tag. Div tags are often used as a container, or wrapper, for other elements in order to arrange the inner elements or apply some javascript functionality. 
+The `<div>` tag represents a division or a section within a web page. The `<div>` tag is not semantic, as it doesn't imply anything about the contents of the tag. Div tags are often used as a container, or wrapper, for other elements in order to arrange the inner elements or apply some javascript functionality. 
 
 ```html
 <div>
@@ -259,6 +259,110 @@ Span tags can be used, in conjuction with ids or classes, as a "hook" inside of 
 <span>
     <p>I'm a <span id="different-styled-font">span</span> tag inside of a p tag inside of a span tag!</p>
 </span>
+```
+</details>
+
+<details>
+    <summary>Separation Tags</summary>
+
+There are a couple of tags that can be used to create space or separation between elements. These tags are `<hr>` and `<br>`.
+
+* `<hr>` - this tag is used to create white space between elements
+* `<br>` - this tag is used to insert a single line break between elements
+</details>
+
+
+<details>
+    <summary>List Tags</summary>
+
+There are two kinds of lists that can be created in HTML. They are known as ordered, or unordered lists. Each type of list is comprised of list items.
+
+`<ul>` - this is the tag used to create an unordered list
+* This will create a list-like structure using bullet poiints
+
+`<ol>` - this is the tag used to create an ordered list
+* This will create a list-like structure using numbers
+
+`<li>` - this is the tag used to indicate that the content is a part of the list. It is short for "list item."
+
+Syntax:
+
+```html
+<!-- Unordered List -->
+<ul>
+    <li>About</li>
+    <li>Contact</li>
+</ul>
+
+<!-- Ordered List -->
+<ol>
+    <li>About</li>
+    <li>Contact</li>
+</ol>
+```
+</details>
+
+<details>
+    <summary>Input Tags</summary>
+
+Input boxes are commonly used to capture user input. `<input />` tags are used create input elements in HTML.
+
+Input tags will need a `type` attribute applied in order to know what kind of input will be inserted. If there is not one applied, it will default to `type="text"` which is just a normal input box a user can type into. Below are some of the different types of inputs
+
+>Note: `<input />` tags are an example of one of the more commonly used "self-closing" or "void" elements in HTML. They should *NOT* be written in pairs.
+
+<details>
+    <summary>Different Types of Inputs</summary>
+
+* `<input type="button" />` 
+* `<input type="checkbox" />`
+* `<input type="color" />`
+* `<input type="date" />`
+* `<input type="datetime-local" />`
+* `<input type="email" />`
+* `<input type="file" />`
+* `<input type="hidden" />`
+* `<input type="image" />`
+* `<input type="month" />`
+* `<input type="number" />`
+* `<input type="password" />`
+* `<input type="radio" />`
+* `<input type="range" />`
+* `<input type="reset" />`
+* `<input type="search" />`
+* `<input type="submit" />`
+* `<input type="tel" />`
+* `<input type="text" />`
+* `<input type="time" />`
+* `<input type="url" />`
+</details>
+</details>
+
+<details>
+    <summary>Button Tags</summary>
+
+Buttons are a great way to enable users to interact with a web page.
+
+`<button>` - this is the tag used to create a button.
+
+In order to make buttons or other elements interactive, an event handling attribute, like `onclick` would need to be added. Events will be covered in the near future, so don't worry too much about them for now. Here's an example of what a button might look like:
+
+```html
+<button onclick="someFunction()">Button Text</button>
+```
+</details>
+
+<details>
+    <summary>Image Tags</summary>
+
+Images can be embedded into a web page using the `<img>` tag.
+
+The `src` attribute is necessary to specify the source of the image shown. It can point to a relative path, or be a URL to some external source.
+
+Image elements can also use an `alt` attribute to create text that will display if the image source can't be loaded. Including descriptive `alt` tags is another way to enable a better experience for users with disabilities, as screen readers can read out the alt tag for visually impaired users. 
+
+```html
+<img src="https://images.unsplash.com/photo-1560807707-8cc77767d783?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80" alt="long coated white and brown puppy lying on a bed" height="500" width="500"/>
 ```
 </details>
 
@@ -332,7 +436,10 @@ HTML elements are not given `display: inline-block` by default. Inline-block can
 
 Attributes are used in HTML to provide extra information or features to a tag. All tags can have attributes, and attributes should always be placed in the opening tag.
 
-Basic syntax for assigning an attribute:
+<details>
+    <summary>Tag Attributes Information</summary>
+
+Here's the basic syntax for assigning an attribute:
 
 ```html
 <tagname attributeName="attributeValue">content</tagname>
@@ -342,106 +449,16 @@ The attribute above has both a name and a value. The value is *assigned* to the 
 
 Common attributes:
 
-* `id` - the id attribute is used to assign a specific id to an element. This will help us target the desired element when adding in styling or functionality through CSS or JavaScript. There can only be one id assigned to a tag. Ids should be unique and used only once.  
-* `class` - the class attribute is used to assign a specific class to an element. Similar to ids, classes let us target desired elements for styling or functionality, but they are designed to be used across multiple elements at a time. Elements can also have multiple classes.
+* `id` - the id attribute is used to assign a specific id to an element. This will help us target the desired element when adding in styling or functionality through CSS or JavaScript. 
+>Note: There can only be one id assigned per tag. Also, ids should be unique and used only once.   
+* `class` - the class attribute is used to assign a specific class to an element. Similar to ids, classes let us target desired elements for styling or functionality, but they are designed to be used across many elements at a time. 
+>Note: Elements can have multiple classes.
 * `href` - the href attribute is commonly paired with an `<a>` tag, and it is used to specify a URL path to link to
 * `src` - image tags can use the src attribute to specify the source path or file name of the image displayed
 * `height` - the height attribute is used to assign a height to an element. It can take values of `px`, `%`, `vh`, `em`, or `rem`
 >Note: Using `box-sizing: border-box` will affect how height is rendered. 
 * `width` - the width attribute it similarly used to assign a width to an element. It can take values of `px`, `%`, `vh`, `em`, or `rem`
-
-### Separation Tags
-
-There are a couple of tags that can be used to create space or separation between elements. These tags are `<hr>` and `<br>`.
-
-* `<hr>` - this tag is used to create white space between elements
-* `<br>` - this tag is used to insert a single line break between elements
-
-### Lists
-
-There are two kinds of lists that can be created in HTML. They are known as ordered, or unordered lists. Each type of list is comprised of list items.
-
-`<ul>` - this is the tag used to create an unordered list
-* This will create a list-like structure using bullet poiints
-
-`<ol>` - this is the tag used to create an ordered list
-* This will create a list-like structure using numbers
-
-`<li>` - this is the tag used to indicate that the content is a part of the list. It is short for "list item."
-
-Syntax:
-
-```html
-<!-- Unordered List -->
-<ul>
-    <li>About</li>
-    <li>Contact</li>
-</ul>
-
-<!-- Ordered List -->
-<ol>
-    <li>About</li>
-    <li>Contact</li>
-</ol>
-```
-
-### Inputs
-
-Input boxes are commonly used to capture user input. `<input />` tags are used create input elements in HTML.
-
-Input tags will need a `type` attribute applied in order to know what kind of input will be inserted. If there is not one applied, it will default to `type="text"` which is just a normal input box a user can type in. Below are some of the different types of inputs
-
->Note: `<input />` tags are an example of one of the more commonly used "self-closing" or "void" elements in HTML. They should *NOT* be written in pairs.
-
-<details>
-    <summary>Different Types of Inputs</summary>
-
-* `<input type="button" />` 
-* `<input type="checkbox" />`
-* `<input type="color" />`
-* `<input type="date" />`
-* `<input type="datetime-local" />`
-* `<input type="email" />`
-* `<input type="file" />`
-* `<input type="hidden" />`
-* `<input type="image" />`
-* `<input type="month" />`
-* `<input type="number" />`
-* `<input type="password" />`
-* `<input type="radio" />`
-* `<input type="range" />`
-* `<input type="reset" />`
-* `<input type="search" />`
-* `<input type="submit" />`
-* `<input type="tel" />`
-* `<input type="text" />`
-* `<input type="time" />`
-* `<input type="url" />`
 </details>
-
-### Buttons
-
-Buttons are a great way to enable users to interact with a web page.
-
-`<button>` - this is the tag used to create a button.
-
-In order to make buttons or other elements interactive, an event handling attribute, like `onclick` would need to be added. Events will be covered in the near future, so don't worry too much about them for now. Here's an example of what a button might look like:
-
-```html
-<button onclick="someFunction()">Cool Button!</button>
-```
-
-### Images
-
-Images can be embedded into a web page using the `<img>` tag.
-
-The `src` attribute is necessary to specify the source of the image shown. It can point to a relative path, or be a URL to some external source.
-
-Image elements can also use an `alt` attribute to create text that will display if the image source can't be loaded. Including descriptive `alt` tags is another way to enable a better experience for users with disabilities, as screen readers can read out the alt tag for visually impaired users. 
-
-```html
-<img src="https://images.unsplash.com/photo-1560807707-8cc77767d783?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80" alt="long coated white and brown puppy lying on a bed" height="500" width="500"/>
-```
 
 ### Form
 

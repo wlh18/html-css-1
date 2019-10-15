@@ -678,6 +678,19 @@ Applies to the right-most selector, which is a descendant of the selector(s) to 
     ```
 </details>
 
+#### Pseudo-classes
+
+   Pseudo-classes are keywords that can be added to a selector to specify a special state of the selected elements. For example, `:hover` can be used to change an element's color when a user's pointer hovers over the element.
+   
+   Example: 
+   ```css 
+     button:hover {
+        color: blue;
+     }
+   ```
+   
+   There are a number of psuedo-class selectors, and they can be chained together. Some of the more commonly used pseudo-classes are `:hover`, `:active`, and `:focus`. For a list of all pseudo-classes and more information about them, see here: https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
+
 ### CSS Specificity
 
 CSS Specificity refers to a set of rules that browsers use to determine which styles are applied when there is a conflict. The built in rules work on a point evaluation system. Each type of selector has a different point value given to it. The style that is ultimately applied comes from whichever selector has the highest point value. See below for specific point values per selector.

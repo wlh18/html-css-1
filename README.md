@@ -570,7 +570,7 @@ selector {
 }
 ```
 
-#### Example Selectors
+#### Common Selectors
 Here are some of the more commonly used simple selectors along with example syntax: 
 
 <details>
@@ -590,19 +590,45 @@ Here are some of the more commonly used simple selectors along with example synt
     <summary>Id Selector</summary>
     
    Selects HTML elements by their id attribute value. Id selectors must be prefixed with an `#`. 
-    
+   
+  ```css
+  #some-id {
+    background-color: purple;
+  }
+  ```
  
- </details>
-* **Element selector** - selects HTML elements by their tag name
-* **Id selector** - selects HTML elements by their id attribute value. Id selectors are preceded by a `#`
-* **Class selector** - selects HTML elements by their class attribute value. Class selectors are preceded by a `.`
-* **Universal selector** - selects all HTML elements on the page using the `*` symbol
+ </details> 
+    
+<details>
+    <summary>Class Selector</summary> 
+    
+   Selects HTML elements by their class attribute value. Class selectors are preceded by a `.`
+   
+   ```css
+  .some-class {
+    background-color: purple;
+  }
+  ```   
+  </details>
+      
+<details>
+    <summary>Universal Selector</summary> 
+    
+   Selects all HTML elements on the page using the `*` symbol
+   
+   ```css
+   * {
+    background-color: purple;
+  }
+  ```
+   
+  </details>
 
 #### Combinators
 Selectors can also be used with "combinators" for more specific styling. Below are some examples of combinators.
 
 <details>
-    <summary>Group selector (,)</summary>
+    <summary>Group Selector (,)</summary>
     
    Combines multiple selectors to apply the same styling block. 
     
@@ -616,7 +642,7 @@ Selectors can also be used with "combinators" for more specific styling. Below a
 </details>
 
 <details>
-<summary>Descendant selector (space)</summary>
+<summary>Descendant Selector (space)</summary>
 
 Applies to the right-most selector, which is a descendant of the selector(s) to the left.
 ```css
@@ -627,7 +653,7 @@ Applies to the right-most selector, which is a descendant of the selector(s) to 
 </details>
 
 <details>
-    <summary>Child selector (>)</summary>
+    <summary>Child Selector (>)</summary>
     
    Targets only *direct* children of a particular selector. 
    
@@ -638,13 +664,32 @@ Applies to the right-most selector, which is a descendant of the selector(s) to 
     }
     ```
 </details>
-* **Adjacent Sibling Selector (+)** - targets only the first sibling of a given selector if they share the same parent. 
-* **General Sibling Selector (~)** - in contrast to the adjacent sibling selector, the general sibling selector selects all instances of siblings to the first selector
-```css
-div ~ p{
-background-color:blue;
-} 
-```
+
+<details>
+    <summary>Adjacent Sibling Selector (>)</summary>
+    
+   Targets only the first sibling of a given selector if they share the same parent. 
+   
+   Example: 
+    ```css
+    div + p {
+        background-color: tomato;
+    }
+    ```
+</details>
+
+<details>
+    <summary>General Sibling Selector (>)</summary>
+    
+   In contrast to the adjacent sibling selector, the general sibling selector selects all instances of siblings to the specified selector. 
+   
+   Example: 
+    ```css
+    div ~ p {
+        background-color: tomato;
+    }
+    ```
+</details>
 
 
 1. We select the tag, if we do this it will apply this style to all the tags that we have selected

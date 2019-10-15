@@ -578,7 +578,7 @@ selector {
 Here are some of the more commonly used simple selectors along with example syntax: 
 
 <details>
-    <summary>Element Selector</summary>
+    <summary>Element Selector (tagname)</summary>
     
   The element selector selects HTML elements by their tag name.
    
@@ -591,9 +591,9 @@ Here are some of the more commonly used simple selectors along with example synt
 </details>
 
 <details>
-    <summary>Id Selector</summary>
+    <summary>Id Selector (#)</summary>
     
-   Selects HTML elements by their id attribute value. Id selectors must be prefixed with an `#`. 
+   Selects HTML elements by their `id` attribute value. Id selectors must be prefixed with a `#`. 
    
   ```css
   #some-id {
@@ -604,9 +604,9 @@ Here are some of the more commonly used simple selectors along with example synt
  </details> 
     
 <details>
-    <summary>Class Selector</summary> 
+    <summary>Class Selector (.)</summary> 
     
-   Selects HTML elements by their class attribute value. Class selectors are preceded by a `.`
+   Selects HTML elements by their `class` attribute value. Class selectors are prefixed with a `.`
    
    ```css
   .some-class {
@@ -616,7 +616,7 @@ Here are some of the more commonly used simple selectors along with example synt
   </details>
       
 <details>
-    <summary>Universal Selector</summary> 
+    <summary>Universal Selector (*)</summary> 
     
    Selects all HTML elements on the page using the `*` symbol
    
@@ -670,7 +670,7 @@ Applies to the right-most selector, which is a descendant of the selector(s) to 
 </details>
 
 <details>
-    <summary>Adjacent Sibling Selector (>)</summary>
+    <summary>Adjacent Sibling Selector (+)</summary>
     
    Targets only the first sibling of a given selector if they share the same parent. 
    
@@ -683,7 +683,7 @@ Applies to the right-most selector, which is a descendant of the selector(s) to 
 </details>
 
 <details>
-    <summary>General Sibling Selector (>)</summary>
+    <summary>General Sibling Selector (~)</summary>
     
    In contrast to the adjacent sibling selector, the general sibling selector selects all instances of siblings to the specified selector. 
    
@@ -695,123 +695,25 @@ Applies to the right-most selector, which is a descendant of the selector(s) to 
     ```
 </details>
 
+### CSS Specificity
 
-1. We select the tag, if we do this it will apply this style to all the tags that we have selected
+CSS specificity refers to a set of rules that browsers use to determine which styles are applied when there is a conflict. The built in rules work on a point system. Each type of selector has a different point value given to it. The style that is ultimately applied comes from whichever selector has the highest point value. 
 
-```css
-div {
-    background-color: tomato;
-}
-```
-
-2. We can select an html class.
-
-On the html tag, we can give it an attribute of `class=""` to give it a class name. We can use classes to apply styles to multiple elements using that classname.
-
-HTML:
-```html
-<div class="container">
-
-</div>
-```
-
-CSS:
-```css
-.container {
-    background-color: tomato;
-}
-```
-
-We need to prefix our selector with a `.` to declare we are looking for a class.
-
-3. We can select an html id
-
-This is the same as the selecting a class, but we should never have more than one element with the same id.
-
-HTML:
-```html
-<h1 id="title">This is my title</h1>
-```
-
-CSS:
-```css
-#title {
-    color: tomato;
-}
-```
-
-Notice how we prefix our selector with a `#` to declare we are selecting an id.
-
-### CSS Selector Patterns
-
-We can target multple elements at once, or be very specific about what element to select to apply a set of styles to.
-
-Using these different selector patterns will help keep our code `DRY`.
-
-We can use a `,` to select multiple elements at once to apply the same styling.
-
-```css
-h1, div, span {
-    color: blue;
-    background-color: tomato;
-}
-```
-
-We can use a white space ` ` or the carot `>` to go select a specific element that is nested inside of other elements.
-
-```css
-nav div h1 {
-    color: blue
-}
-
-nav > div > h1 {
-    color: red;
-}
-```
-
-### CSS Specificty
-
-CSS specificity refers to a set of rules that browsers use to determine which styles are applied when there is a conflict. 
-
-This set of rules work on a point system. Each selector has a different point value given to it. The higher the point value, the more likely that style is to be applied to the element. We use this set of rules to determine how to override or avoid overriding styles that conflict.
+>Note: Keep in mind that CSS executes top-to-bottom, and this can affect your styling too. 
 
 Point System:
 
-`Inline Styling` - this is where we apply styles directly to the HTML tag. Inline styling is worth 1000 points.
+`Inline Styling` - 1000 pts. Inline styles always override styles declared in an external stylesheet.
 
-```html
-<h1 style="color: blue">This is my title</h1>
-```
+`Id Selector` - 100 pts.
 
-`ID` - when we use an id to apply styles, it will gain 100 points in this system
+`Class Selector` - 10 pts. 
 
-```css
-#title {
-    color: blue
-}
-```
+`Element selector` - 1pt. 
 
-`Class` - when a class is selected to apply an element, it gains 10 points
+`!important` - Can be used to override all other denoted styles. You should avoid using `!important` at all costs, as it can make debugging CSS considerably more difficult. It is better to sort out where your styling is coming from rather than resport to `!important`.
 
-```css
-.containers {
-    background-color: tomato;
-}
-```
-
-`element` - when we target an element directly using this tag, it is applied only 1 point
-
-```css
-div {
-    background-color: tomato;
-}
-```
-
-### DRY Code => DRY CSS
-
-`DRY` stands for 'don't repeat yourself'. This is a coding philosophy developers should aspire to follow to help avoid writing the same code over and over again. 
-
-When it comes to CSS, here's tips to apply in order to stay DRY:
+>Note: Universal selectors, combinators (>, +, etc.) have no effect on CSS specificity. 
 
 
 ### Reset CSS
@@ -820,19 +722,7 @@ By default, the browser will apply its own set of styling rules to the elements 
 
 We can use a `reset css` file to remove all default styling from a browser.
 
-Check this website out to get a prebuilt reset css file: ![reset css](https://meyerweb.com/eric/tools/css/reset/)
-
-### Display Property
-
-The `display` property is a property that can help aid us in setting up the lay out for each element.
-
-`display` has multiple values that we can give it:
-
-`block` - this display value will cause each element to appear own a new line and will take up the full amount of width that it can
-
-`inline` - this value will cause each element to not go to a new line and will only take up as much width as it needs. You can not edit the height or width of an inline element.
-
-`inline-block` - works just like inline, but allows us to edit the height and width of the element
+For a link to a premade reset css file, see here: https://meyerweb.com/eric/tools/css/reset/
 
 ### Floats
 

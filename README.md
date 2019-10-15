@@ -517,6 +517,8 @@ CSS, which stands for Cascading Style Sheets, is another building block language
 ### How to Write CSS
 <details>
     <summary>Information</summary>
+    
+    
 There are three main ways to write CSS:
 
 1. **Inline CSS** - Inline CSS is created per element by using the `style` attribute on the element. Inline CSS is not considered best-practice as it bloats files, it makes it difficult to make broad styling changes, and it can become difficult to pin point where the styling of a page is coming from. 

@@ -528,7 +528,7 @@ Inline CSS Example:
 <button style="color:blue;font-size:12px">Button Text</button>
 ```
 
-2. **Internal CSS** - Internal CSS is when CSS written inside of the `<style>` tag of an HTML document. Internal CSS can bloat a file and make it more difficult to comprehend, and is consequently not considered best-practice. 
+2. **Internal CSS** - Internal CSS is when CSS written inside of the `<style>` tag of an HTML document. This `<style>` tag should be written inside of the `<head>` tag of the html. Internal CSS can bloat a file and make it more difficult to comprehend, and is consequently not considered best-practice. 
 
 Internal CSS Example: 
 ```html

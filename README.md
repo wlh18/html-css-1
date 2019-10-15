@@ -303,37 +303,14 @@ Syntax:
 <details>
     <summary>Input Tags</summary>
 
-Input boxes are commonly used to capture user input. `<input />` tags are used create input elements in HTML.
+`<input />` tags are used create input elements in HTML, and they are commonly used to collect user input.
 
-Input tags will need a `type` attribute applied in order to know what kind of input will be inserted. If there is not one applied, it will default to `type="text"` which is just a normal input box a user can type into. Below are some of the different types of inputs
+Input tags can have a `type` attribute applied in order to control the type of input that will be inserted, and affect the default styling and behavior of the input field. There are many different types of input fields including `button`, `checkbox`, `color`, `date`, `datetime-local`, `email`, `file`, `image`, `image`, `month`, `number`, `password`, `radio`, `submit`, and more.
+
+If a `type` attribute value is not specified for an `<input>`, it will default to `type="text"`, which is just a normal input box a user can type any text into. 
 
 >Note: `<input />` tags are an example of one of the more commonly used "self-closing" or "void" elements in HTML. They should *NOT* be written in pairs.
 
-<details>
-    <summary>Different Types of Inputs</summary>
-
-* `<input type="button" />` 
-* `<input type="checkbox" />`
-* `<input type="color" />`
-* `<input type="date" />`
-* `<input type="datetime-local" />`
-* `<input type="email" />`
-* `<input type="file" />`
-* `<input type="hidden" />`
-* `<input type="image" />`
-* `<input type="month" />`
-* `<input type="number" />`
-* `<input type="password" />`
-* `<input type="radio" />`
-* `<input type="range" />`
-* `<input type="reset" />`
-* `<input type="search" />`
-* `<input type="submit" />`
-* `<input type="tel" />`
-* `<input type="text" />`
-* `<input type="time" />`
-* `<input type="url" />`
-</details>
 </details>
 
 <details>

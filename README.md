@@ -795,34 +795,10 @@ For a link to a premade reset css file, see here: https://meyerweb.com/eric/tool
 
 ### Floats
 
-The `float` property places an element on the left or right side of it's container, allowing text and inline elements to wrap around it.
+The `float` property places an element on the left or right side of it's container, and allows text and inline elements to wrap around it. The `clear` property can be used to prevent text or inline elements from wrapping around an element, and it can specify the left, right, or both sides. 
 
-<iframe height="265" style="width: 100%;" scrolling="no" title="Float Example" src="https://codepen.io/FCCMatias/embed/vYYKOde?height=265&theme-id=0&default-tab=html,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
-</iframe>
+See the visual example of floats below: 
 
-
-```css
-div {
-    float: left;
-}
-
-img {
-    float: right;
-}
-```
-
-`clear` is the property we can use if we want to declare that nothing can sit on the side of the floated element
-
-```css
-div {
-    float: right;
-}
-
-h1 {
-    clear: right;
-    /* this will make the h1 sit underneath the div because we are clearing everything to the left side of the div positioned right */
-}
-```
 
 ### Text Properties and Fonts
 

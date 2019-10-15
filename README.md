@@ -440,6 +440,22 @@ We can create tables to organize content in HTML by using a `<table>` tag.
 ```
 </details>
 
+<details>
+    <summary>Footer Tags</summary>
+
+The `<footer>` tag is used at the bottom of a page as a container for copyright, authorship information, and navigational links related to the page. 
+
+Example: 
+```html
+<footer>
+   <dl>
+       <dt>Published</dt>
+       <dd>13 November 2015</dd>    
+       <dt>Tags</dt>    
+       <dd>Sample Posts, Fake Latin, Semantic Markup</dd>  
+    </dl> 
+</footer>
+```
 
 ### Tag Attributes
 

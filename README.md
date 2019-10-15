@@ -843,14 +843,13 @@ Here's a brief overview of some of the background properties:
     
    ```css
     div {
-        background-image: url(''https://images.unsplash.com/photo-1554629947-334ff61d85dc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=676&q=80);
-        background-sze: cover;
+        background-image: url('https://images.unsplash.com/photo-1554629947-334ff61d85dc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=676&q=80');
+        background-size: cover;
         background-position: center;
         background-repeat: none;
     }
    ```
 </details>
-
 
 # Additional Resources
 

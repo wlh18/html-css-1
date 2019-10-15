@@ -722,19 +722,12 @@ All HTML elements can be thought of as boxes. In CSS, the "box model" is used wh
 Here's a visual representation: 
 ![css-box-model](images/box-model.png)
 
-Those four properties are:
+Here's a brief description of each part:
 
-1. Margin
-Margin is the white space between each element
-
-2. Border
-Border is the border of the box
-
-3. Padding
-Padding is the white space between the content of an element and its border
-
-4. Content
-The content of an element is anything inside of an element such as text, images, etc.
+1. **Margin** - The white space that separates one element from another
+1. **Border** - The border of the box that separates the padding from the margin. 
+1. **Padding** - The "padding" or buffer space between the content of an element and its border.
+1. **Content** - The space allocated to the actual content of an element, which may be text, images, etc. 
 
 ### Reset CSS
 
@@ -743,6 +736,8 @@ By default, the browser will apply its own set of styling rules to the elements 
 We can use a `reset css` file to remove all default styling from a browser.
 
 For a link to a premade reset css file, see here: https://meyerweb.com/eric/tools/css/reset/
+
+>Note: You may also want to add  `box-sizing: border-box` to your reset css in order to enable more predictable control of the height of elements. 
 
 ### Floats
 

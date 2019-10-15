@@ -715,6 +715,24 @@ CSS Specificity refers to a set of rules that browsers use to determine which st
 
 Finally, for a more comprehensive breakdown of CSS Specificity, see here: https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity
 
+### Box Model
+
+All HTML elements can be thought of as boxes. In CSS, the "box model" is used when talking about the design and layout of elements, and it can be thought of as essentially a 4 part box that wraps around every element. 
+
+Those four properties are:
+
+1. Margin
+Margin is the white space between each element
+
+2. Border
+Border is the border of the box
+
+3. Padding
+Padding is the white space between the content of an element and its border
+
+4. Content
+The content of an element is anything inside of an element such as text, images, etc.
+
 ### Reset CSS
 
 By default, the browser will apply its own set of styling rules to the elements inside of an HTML file.
@@ -792,25 +810,6 @@ div {
 
 `background-color` - we can use this to change the background color of an element
 
-### Box Model
-
-The box model is a tool we can use when it comes to styling the layout of our elements. The box model is more of a concept or pattern to follow rather than actual code values.
-
-Following the box model means that we are looking to style four specific parts of our elements in order to get the right layout and design of the element.
-
-Those four properties are:
-
-1. Margin
-Margin is the white space between each element
-
-2. Border
-Border is the border of the box
-
-3. Padding
-Padding is the white space between the content of an element and its border
-
-4. Content
-The content of an element is anything inside of an element such as text, images, etc.
 
 # Additional Resources
 

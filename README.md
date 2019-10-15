@@ -194,6 +194,29 @@ When it comes to making your sites more accessible, here are three easy tips to 
 There are many different tags that can be used to create HTML elements. Here, we will review the more commonly used HTML tags. 
 
 <details>
+    <summary>Header Tags</summary>
+
+The `<header>` tag is used as a container for introductory content or a set of navigational links. 
+
+Example: 
+```html
+<header>
+    <img src="logo"/> 
+    <h1>Heading Title</h1>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+</header>
+```
+
+>Note: Header tags cannot be placed within a `<footer>`, `<address>`, or another `<header>` element.
+</details>
+
+<details>
     <summary>Heading Tags</summary>
 
 Heading tags are used to create headers for content on a webpage. Heading tags can come with built-in font size and weight variations corresponding to their level, depending on the browser. These can be removed with a reset CSS file, or customized by developers using their own stylesheets. 

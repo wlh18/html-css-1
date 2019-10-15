@@ -698,11 +698,11 @@ Applies to the right-most selector, which is a descendant of the selector(s) to 
    Targets only *direct* children of a particular selector. 
    
    Example: 
-    ```css
+```css
     div>p {
         background-color: tomato;
     }
-    ```
+ ```
 </details>
 
 <details>
@@ -711,11 +711,11 @@ Applies to the right-most selector, which is a descendant of the selector(s) to 
    Targets only the first sibling of a given selector if they share the same parent. 
    
    Example: 
-    ```css
+```css
     div + p {
         background-color: tomato;
     }
-    ```
+ ```
 </details>
 
 <details>
@@ -724,11 +724,11 @@ Applies to the right-most selector, which is a descendant of the selector(s) to 
    In contrast to the adjacent sibling selector, the general sibling selector selects all instances of siblings to the specified selector. 
    
    Example: 
-    ```css
+ ```css
     div ~ p {
         background-color: tomato;
     }
-    ```
+ ```
 </details>
 
 #### Pseudo-classes

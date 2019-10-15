@@ -9,7 +9,8 @@
 
 # Student Learning Objectives
 
-### HTML
+<details>
+    <summary>HTML</summary>
 
 * Student can describe and create an HTML file (?)
 * Student can use the head tag to insert meta information about the page
@@ -27,7 +28,10 @@
 * Student can utilize and understand the benefits of semantic HTML (?)
 * Student can visualize HTML/CSS in terms of boxes/containers (?)
 
-### CSS
+</details>
+
+<details>
+    <summary>CSS</summary>
 
 * Student can describe what CSS is
 * Student can bring in and use a new font in a project
@@ -42,6 +46,8 @@
 * Student can use the float property
 * Student can use and describe a reset file
 * Student can understand and utilize a mockup (?)
+
+</details>
 
 # HTML/CSS I Lecture Notes
 

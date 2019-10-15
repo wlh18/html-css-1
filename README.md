@@ -797,6 +797,14 @@ For a link to a premade reset css file, see here: https://meyerweb.com/eric/tool
 
 The `float` property places an element on the left or right side of it's container, allowing text and inline elements to wrap around it.
 
+<p class="codepen" data-height="265" data-theme-id="0" data-default-tab="html,result" data-user="FCCMatias" data-slug-hash="vYYKOde" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Float Example">
+  <span>See the Pen <a href="https://codepen.io/FCCMatias/pen/vYYKOde">
+  Float Example</a> by Matthew (<a href="https://codepen.io/FCCMatias">@FCCMatias</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+
 ```css
 div {
     float: left;

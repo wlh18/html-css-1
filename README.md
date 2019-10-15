@@ -798,7 +798,7 @@ For a link to a premade reset css file, see here: https://meyerweb.com/eric/tool
 The `float` property places an element on the left or right side of it's container, and allows text and inline elements to wrap around it. The `clear` property can be used to prevent text or inline elements from wrapping around an element, and it can specify the left, right, or both sides. 
 
 See the visual example of floats below: 
-
+![float-example](images/float-example.png)
 
 ### Text Properties and Fonts
 

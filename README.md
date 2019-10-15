@@ -9,7 +9,7 @@
 
 # Student Learning Objectives
 
-<details>
+<details open>
     <summary>HTML</summary>
 
 * Student can describe and create an HTML file (?)
@@ -30,7 +30,7 @@
 
 </details>
 
-<details>
+<details open>
     <summary>CSS</summary>
 
 * Student can describe what CSS is

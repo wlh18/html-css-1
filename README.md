@@ -342,6 +342,18 @@ Image elements can also use an `alt` attribute to create text that will display 
 ```
 </details>
 
+
+<details>
+    <summary>Anchor Tags</summary>
+    
+Anchor tags are used to define the beginning and end of a hypertext link. Anchor tags can be used to redirect users to external links by specifying the destination with the `href` attribute. They can also enable users to jump to specific points on the same page using the `name` attribue. 
+
+```html
+<a href="http://www.example.com" name='Sample'>My sample page </a>
+<a href="#Sample">Go to Sample Page Link</a>
+```
+</details>
+
 <details>
     <summary>Form Tags</summary>
 

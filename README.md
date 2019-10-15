@@ -456,6 +456,7 @@ Example:
     </dl> 
 </footer>
 ```
+</details>
 
 ### Tag Attributes
 

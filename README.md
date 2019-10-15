@@ -119,8 +119,9 @@ Here's an example of a basic HTML page structure:
 <!DOCTYPE html>
 <html lang="en">
   <head>
-     <!-- Meta tags and external links go here too -->
-    <title>Document</title>
+     <!-- Meta tags and other external links go here, and the link and title tags below can be used to change the icon/title of your webpage -->
+    <link rel="shortcut icon" href="some-URL-or-path-goes-here" />  
+    <title>The Title</title>
   </head>
   <body>
       <!-- Content of page goes inside the body tag -->

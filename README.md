@@ -697,13 +697,12 @@ Applies to the right-most selector, which is a descendant of the selector(s) to 
 
 ### CSS Specificity
 
-CSS specificity refers to a set of rules that browsers use to determine which styles are applied when there is a conflict. The built in rules work on a point system. Each type of selector has a different point value given to it. The style that is ultimately applied comes from whichever selector has the highest point value.
+CSS Specificity refers to a set of rules that browsers use to determine which styles are applied when there is a conflict. The built in rules work on a point evaluation system. Each type of selector has a different point value given to it. The style that is ultimately applied comes from whichever selector has the highest point value. See below for specific point values per selector.
 
 >Note: Keep in mind that CSS executes top-to-bottom, and this can affect your styling too. 
 
-For a comprehensive breakdown of CSS Specificity, see here: https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity
-
-Here's an example of what the browser point system might look like:
+<details>
+<summary>Point System</summary>
 
 `Inline Styling` - 1000 pts. Inline styles always override styles declared in an external stylesheet.
 
@@ -716,6 +715,9 @@ Here's an example of what the browser point system might look like:
 `!important` - Can be used to override all other denoted styles. You should avoid using `!important` at all costs, as it can make debugging CSS considerably more difficult. It is better to sort out where your styling is coming from rather than resport to `!important`.
 
 >Note: Universal selectors, combinators (>, +, etc.) have no effect on CSS specificity. 
+</details>
+
+Finally, for a more comprehensive breakdown of CSS Specificity, see here: https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity
 
 ### Reset CSS
 

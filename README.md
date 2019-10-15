@@ -34,8 +34,9 @@
     <summary>CSS</summary>
 
 * Student can describe what CSS is
+* Student can use CSS selectors (element, id, class) to style elements (?)
 * Student can bring in and use a new font in a project
-* Student can can use id, class, descendant, child, and addition selectors in CSS to style elements (?)
+* Student can can use group, descendant, child, and sibling combinators to style elements (?)
 * Student can use the font, color, and background-color properties (?)
 * Student can use text-align property
 * Student can use background property to specify colors or images used for backgrounds
@@ -819,47 +820,54 @@ h1 {
 }
 ```
 
-### Text Properties
+### Text Properties and Fonts
 
-There are multiple properties we can use to manipulate the way text looks on our web page.
+Text on a web page can be manipulated through various properties in CSS. Here are a few:
 
-Using good fonts and text colors are important for good design.
+* `font-size` - changes the size of a font
+* `font-weight` - controls how bold the font appears
+* `color` - changes the color of the text inside of an element
+* `line-height` - determines the space between two inline elements
+* `text-align` - defines the horizontal alignment of text within the content box of an element
+* `font-family` - determines the font family of the text on the page
+* `letter-spacing` - determines how much white space should be between each character
 
-There are many different properties we can modify:
+We can also bring in fonts that are not native to a browser through `<link>` tags in our HTML. Here's an example of what that looks like: 
 
-`font-size` - this will change the size of the font
-
-`color` - this will change the color of the text inside of an element
-
-`line-height` - will determine the total amount of space the content height will take up
-
-`text-align` - property that defines where to align the text according to the size of the element
-
-`font-family` - will determine what font family we want our text to be in
-
-`letter-spacing` - will determine how much white space should be between each character
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <link href="https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap" rel="stylesheet">
+  </head>
+  <body>
+      <!-- Content of page-->
+  </body>
+</html>
+```
 
 ### Background Properties
 
-These are properties that we can use to modify the background of an element.
+These are properties that we can use to modify the background appearance of an element. Colors as well as images can be used as backgrounds for elements. 
 
-There are many different background properties we can modify:
+Here's a brief overview of some of the background properties: 
 
-`background-image` - we can use an image as a background for an element. The content inside of the element will appear above the image.
+* `background-color` - can be used to assign a background color to an element.
+* `background-image` - can be used to assign an image as a background for an element. The element itself will appear on a layer above the background.
+* `background-size` - determines the size of a background image. The image can be left to its natural size, stretched, or constrained to fit the available space.
+* `background-position` - can be used to adjust the alignment of the background image. Some of the possible values include `center`, `top`, `bottom`, `right`, `left`, and x/y coordinates. 
+* `background-repeat` - can be used to set if/how a background image will be repeated.
 
-```css
-div {
-    background-image: url('image.png')
-}
-```
-
-`background-size` - this determines the size of the background
-
-`background-position` - we can use this to adjust where and how the background image will align
-
-`background-repeat` - we can use this to choose how and if the background image should be repeated
-
-`background-color` - we can use this to change the background color of an element
+<details>
+    <summary>Background Image Syntax Example</summary>
+    
+   ```css
+    background-image: url(''https://images.unsplash.com/photo-1554629947-334ff61d85dc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=676&q=80);
+    background-sze: cover;
+    background-position: center;
+    background-repeat: none;
+   ```
+</details>
 
 
 # Additional Resources

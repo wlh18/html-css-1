@@ -305,7 +305,7 @@ Syntax:
 
 `<input />` tags are used create input elements in HTML, and they are commonly used to collect user input.
 
-Input tags can have a `type` attribute applied in order to control the type of input that will be inserted, and affect the default styling and behavior of the input field. There are many different types of input fields including `button`, `checkbox`, `color`, `date`, `datetime-local`, `email`, `file`, `image`, `image`, `month`, `number`, `password`, `radio`, `submit`, and more.
+Input tags can have a `type` attribute applied in order to control the type of input that will be inserted, and affect the default styling and behavior of the input field. There are many different `type` values of input fields including `button`, `checkbox`, `color`, `date`, `datetime-local`, `email`, `file`, `image`, `image`, `month`, `number`, `password`, `radio`, `submit`, and more.
 
 If a `type` attribute value is not specified for an `<input>`, it will default to `type="text"`, which is just a normal input box a user can type any text into. 
 

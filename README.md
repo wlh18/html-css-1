@@ -717,7 +717,10 @@ Finally, for a more comprehensive breakdown of CSS Specificity, see here: https:
 
 ### Box Model
 
-All HTML elements can be thought of as boxes. In CSS, the "box model" is used when talking about the design and layout of elements, and it can be thought of as essentially a 4 part box that wraps around every element. 
+All HTML elements can be thought of as boxes. In CSS, the "box model" is used when talking about the design and layout of elements, and it can be thought of essentially as a 4 part box that wraps around every element. 
+
+Here's a visual representation: 
+![css-box-model](images/box-model.png)
 
 Those four properties are:
 

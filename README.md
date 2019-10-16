@@ -921,11 +921,13 @@ Mockups can be as simple as a sketch on paper or a "wireframe",  or as complicat
   ![simple-wireframe-example](/images/wireframe.jpeg)
 </details
 
+
 <details>
     <summary>Abstract Mockup</summary>
     
-   ![abstract-mockup-example](/images/mockup-abstract.png)
+  ![abstract-mockup-example](/images/mockup-abstract.png)
 </details
+
 
 <details>
     <summary>High Fidelity Mockup</summary>

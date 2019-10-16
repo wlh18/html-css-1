@@ -926,14 +926,14 @@ Mockups can be as simple as a sketch on paper or a "wireframe",  or as complicat
     <summary>Abstract Mockup</summary>
     
  ![abstract-mockup-example](/images/mockup-abstract.png)
-</details
+</details>
 
 
 <details>
     <summary>High Fidelity Mockup</summary>  
     
   ![mockup-detailed](/images/mockup-detailed.jpg)
-</details
+</details>
 
 ### Visualizing HTML/CSS
 

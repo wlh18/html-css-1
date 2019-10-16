@@ -887,8 +887,6 @@ Here's a brief overview of some of the background properties:
 
 CSS has a number of units for expressing length, and they fall into two main categories, "absolute" and "relative" units. 
 
-See below for some of the available units: 
-
 #### Absolute Units
 * `cm` - centimeters
 * `mm` - millimeters

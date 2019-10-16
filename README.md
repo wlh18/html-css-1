@@ -955,6 +955,47 @@ The above code can be visualized as the following:
 
 ![html-containers-visualized](/images/html-containers-visualized.png)
 
+Similarly, any page, and even mockups, can be broken down in reverse. Here's an example of breaking down the anatomy of a Facebook post:
+
+Starting point:
+
+
+
+<details>
+    <summary>Step 1</summary>
+    
+ </details>
+ 
+ 
+<details>
+    <summary>Step 2</summary>
+    
+ </details>
+ 
+ 
+<details>
+    <summary>Step 3</summary>
+    
+ </details>
+ 
+ 
+<details>
+    <summary>Step 4</summary>
+    
+ </details>
+ 
+ 
+<details>
+    <summary>Step 5</summary>
+    
+ </details>
+ 
+ 
+<details>
+    <summary>Step 6</summary>
+    
+ </details>
+
 
 # Additional Resources
 

@@ -598,6 +598,14 @@ External CSS Example:
 >Note: `<link>` tags can also be used to bring in other types of external resources that are not stylesheets.
 </details>
 
+### Reset CSS
+
+By default, browsers apply their own set of styling rules to the elements inside of an HTML file. For example, buttons, headings, paragraphs, and other elements come by default with some margin, padding, borders, and other CSS styling. This can often lead to headaches when attempting to replicate styling across browsers. Fortunately, developers can use a `reset css` file to remove all default styling from a browser, and essentially start from scratch with total control over the styling of a page.
+
+For a link to a premade reset css file, see here: https://meyerweb.com/eric/tools/css/reset/
+
+>Note: You may also want to add  `box-sizing: border-box` to your reset css in order to enable more predictable control of the height of elements. 
+
 ### CSS Selectors
 
 Selectors are patterns used to select the elements to be styled. Selectors are followed by a set of curly braces called  "declaration blocks", which contain individual semi-colon separated style declarations. The individual style declarations are comprised of two main parts, a property and a value for that property. 
@@ -816,22 +824,22 @@ Result:
 
 ![box-sizing-comparison](/images/box-sizing.png)
 
-### Reset CSS
-
-By default, the browser will apply its own set of styling rules to the elements inside of an HTML file.
-
-We can use a `reset css` file to remove all default styling from a browser.
-
-For a link to a premade reset css file, see here: https://meyerweb.com/eric/tools/css/reset/
-
->Note: You may also want to add  `box-sizing: border-box` to your reset css in order to enable more predictable control of the height of elements. 
-
 ### Floats
 
 The `float` property places an element on the left or right side of it's container, and allows text and inline elements to wrap around it. The `clear` property can be used to prevent text or inline elements from wrapping around an element, and it can specify the left, right, or both sides. 
 
 See the visual example of floats below: 
 ![float-example](images/float-example.png)
+
+### Colors
+
+Appropriate use of colors on a webpage can help set a website apart, and make the site more engaging and appealing to users. 
+
+See this blog post for examples of well designed color schemes: https://visme.co/blog/website-color-schemes/
+
+For useful tools in creating your own color schemes and gradients, visit the following sites: 
+https://coolors.co/
+https://cssgradient.io/
 
 ### Text Properties and Fonts
 

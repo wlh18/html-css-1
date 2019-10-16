@@ -3,6 +3,7 @@
 1. [HTML/CSS I Lecture Notes](#HTMLCSS-I-Lecture-Notes)
     1. [HTML](#HTML)
     1. [CSS](#CSS)
+    1. [Visualizing HTML/CSS](#Visualizing-HTMLCSS)
 1. [Additional Resources](#additional-resources)
 1. [HTML/CSS I Mini Project - None for today](#HTMLCSS-I-Mini-Project)
 1. [HTML/CSS I Afternoon Project](#HTMLCSS-I-Afternoon-Project)
@@ -26,7 +27,6 @@
 * Student can use and describe inline, inline-block, and block level elements (?)
 * Student can use the class and id attributes (?)
 * Student can utilize and understand the benefits of semantic HTML (?)
-* Student can visualize HTML/CSS in terms of boxes/containers (?)
 
 </details>
 
@@ -46,7 +46,8 @@
 * Student can describe the difference between px, %, vh/vw, em, and rem (?)
 * Student can use the float property
 * Student can use and describe a reset file
-* Student can understand and utilize a mockup (?)
+* Student can understand and utilize a mockup 
+* Student can visualize HTML/CSS in terms of boxes/containers (?)
 
 </details>
 
@@ -907,6 +908,30 @@ CSS has a number of units for expressing length, and they fall into two main cat
 * `vh` - Relative to 1% of the height of the viewport*	
 * `%` - Relative to the parent element
 </details>
+
+### Mockups
+
+Mockups are essentially sketches that represent the way a web site should look. In the development world, it is common for companies to have a design team or UX/UI team (User Experience, User Interface) that provides mockups to developers in order to create a site. It is important to note that these mockups are *not* code, so it is up to the developers to find a way to actually bring the mockup to life. 
+
+Mockups can be as simple as a sketch on paper or a "wireframe",  or as complicated as a high fidelity, highly detailed, and even interactive mockup built using illustrating software. 
+
+<details>
+    <summary>Simple Wireframe Mockup</summary>
+    
+</details
+
+<details>
+    <summary>Abstract Mockup</summary>
+    
+</details
+
+<details>
+    <summary>High Fidelity Mockup</summary>
+    
+</details
+
+### Visualizing HTML/CSS
+
 
 # Additional Resources
 

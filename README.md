@@ -937,7 +937,7 @@ Mockups can be as simple as a sketch on paper or a "wireframe",  or as complicat
 
 ### Visualizing HTML/CSS
 
-Beginner developers often struggle with bridging the gap between a mockup, and writing actual code. One helpful approach is to visualize HTML/CSS in terms of boxes and containers. Examine the following code: 
+Beginner developers often struggle with bridging the gap between a mockup and writing actual code. One helpful approach is to visualize HTML/CSS in terms of boxes and containers. Examine the following code: 
 
 ```html
 <body>
@@ -954,6 +954,47 @@ Beginner developers often struggle with bridging the gap between a mockup, and w
 The above code can be visualized as the following: 
 
 ![html-containers-visualized](/images/html-containers-visualized.png)
+
+Similarly, any page, and even mockups, can be broken down in reverse. Here's an example of breaking down the anatomy of a Facebook post:
+
+Starting point:
+
+
+
+<details>
+    <summary>Step 1</summary>
+    
+ </details>
+ 
+ 
+<details>
+    <summary>Step 2</summary>
+    
+ </details>
+ 
+ 
+<details>
+    <summary>Step 3</summary>
+    
+ </details>
+ 
+ 
+<details>
+    <summary>Step 4</summary>
+    
+ </details>
+ 
+ 
+<details>
+    <summary>Step 5</summary>
+    
+ </details>
+ 
+ 
+<details>
+    <summary>Step 6</summary>
+    
+ </details>
 
 
 # Additional Resources

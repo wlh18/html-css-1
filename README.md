@@ -783,6 +783,38 @@ Here's a brief description of each part:
 1. **Padding** - The "padding" or buffer space between the content of an element and its border.
 1. **Content** - The space allocated to the actual content of an element, which may be text, images, etc. 
 
+### Box-sizing Property
+
+The box-sizing CSS property determines how the total width and height of an element is calculated. This property accepts two values, `content-box` or `border-box`. 
+
+Here are each in more details: 
+* `box-sizing: content-box` - This is the initial and default value as specified by the CSS standard. The width and height properties include the content, but does not include the padding, border, or margin.
+* `box-sizing: border-box` - The width and height properties include the content, padding, and border, but do not include the margin. Note that padding and border will be inside of the box. 
+
+Example CSS: 
+```css
+    #border-box {
+        box-sizing: border-box;
+        width: 100px;
+        height: 100px;
+        border: solid blue 10px;
+        padding: 5px;
+        background-color: yellow;
+    }
+
+     #content-box {
+        box-sizing: content-box;
+        width: 100px;
+        height: 100px;
+        border: solid blue 10px;
+        padding: 5px;
+        background-color: yellow;
+     }
+```
+
+Result: 
+![box-sizing-comparison](/images/box-sizing.png)
+
 ### Reset CSS
 
 By default, the browser will apply its own set of styling rules to the elements inside of an HTML file.

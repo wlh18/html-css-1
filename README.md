@@ -915,6 +915,8 @@ Mockups are essentially sketches that represent the way a web site should look. 
 
 Mockups can be as simple as a sketch on paper or a "wireframe",  or as complicated as a high fidelity, highly detailed, and even interactive mockup built using illustrating software. 
 
+>Note: For a useful tool for creating your own mockups, see https://www.figma.com/
+
 <details>
     <summary>Simple Wireframe Mockup</summary>
     
@@ -1028,6 +1030,37 @@ Similarly, any page, and even mockups, can be broken down in reverse. Here's an 
  </details>
 
 # Additional Resources
+
+## General
+* https://www.w3schools.com - a great resource for learning the basics about HTML and CSS.
+>Note: For all things JavaScript, avoid w3, and instead refer to MDN.
+* https://developer.mozilla.org/en-US/ - phenomenal resource for all things web dev, and more comprehensive HTML and CSS coverage than w3. Should be utilized as **THE** primary go-to for all things JavaScript. 
+* https://css-tricks.com/ - another great resource for all things web dev, but is an especially great resource for more advanced CSS applications. Provides comprehensive tutorials on creating more complicated visual effects.
+* https://www.figma.com/ - accessible, convenient tool for making wireframes that can be used collaboratively.
+* https://dribbble.com - website with free design templates created by top designers. Great source for inspiration on designs.
+* https://coolors.co/ - convenient tool for creating color schemes for a site.
+* https://cssgradient.io/ - convenient tool for creating custom color gradients
+
+## Videos
+* https://www.youtube.com/watch?v=UB1O30fR-EE&app=desktop - Traversy Media Introductory video to HTML. Traversy Media is a great resource for all things web dev. 
+* https://www.youtube.com/watch?v=yfoY53QXEnI&app=desktop - Traversy Media Introductory video to CSS.
+>Note: Students are strongly encouraged to watch both of these videos over the weekend to review and strengthen their foundation in HTML/CSS
+
+## Articles
+* https://blog.benmyers.dev/clickable-divs/ - article covering why developers shouldn't create "clickable" divs, and should instead practice using buttons
+* https://hacks.mozilla.org/2015/03/understanding-inline-box-model/ - great article covering `inline` elements in depth
+* https://www.impressivewebs.com/difference-block-inline-css/ - article covering the differences between `inline` and `block` elements
+* https://www.impressivewebs.com/inline-block/ - follow up article that covers `inline-block`
+* https://www.semrush.com/blog/semantic-html5-guide/ - useful article that visually lays out, reviews, and compares and contrasts appropriate vs inappropriate use of semantic html. 
+* https://meiert.com/en/blog/dry-css/ - article that covers how to optimize your styling and make your CSS DRY (Don't Repeat Yourself)
+
+## Social Media
+* https://twitter.com/i/moments/994601867987619840 - superb developer/designer that provides actionable tips to set your designs apart
+* https://visme.co/blog/website-color-schemes/ - Visme is a blog that provides guides to making better visual designs. This specific blog post covers 50 great website color schemes
+
+## Extensions
+* https://chrome.google.com/webstore/detail/eye-dropper/hmdcmlfkchdmnmnmheododdhjedfccka?hl=en - Eye Dropper: Useful tool for picking out colors from a web page.
+
 
 # HTML/CSS I Afternoon Project
 https://github.com/DevMountain/html-layout

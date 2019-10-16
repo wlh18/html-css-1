@@ -937,6 +937,24 @@ Mockups can be as simple as a sketch on paper or a "wireframe",  or as complicat
 
 ### Visualizing HTML/CSS
 
+Beginner developers often struggle with bridging the gap between a mockup, and writing actual code. One helpful approach is to visualize HTML/CSS in terms of boxes and containers. Examine the following code: 
+
+```html
+<body>
+  <div class="pagebox">
+    <div class="siteheader"></div>
+    <div class="maincontent">
+      <!-- All my content goes here! -->
+    </div>
+    <div class="sitefooter"></div>  
+  </div>
+</body>
+```
+
+The above code can be visualized as the following: 
+
+![html-containers-visualized](/images/html-containers-visualized.png)
+
 
 # Additional Resources
 

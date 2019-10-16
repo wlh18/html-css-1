@@ -1033,7 +1033,8 @@ Similarly, any page, and even mockups, can be broken down in reverse. Here's an 
 * https://www.figma.com/ - accessible, convenient tool for making wireframes that can be used collaboratively.
 * https://dribbble.com - website with free design templates created by top designers. Great source for inspiration on designs.
 * https://coolors.co/ - convenient tool for creating color schemes for a site.
-* https://cssgradient.io/ - convenient tool for creating custom color gradients
+* https://cssgradient.io/ - convenient tool for creating custom color gradients.
+* https://meyerweb.com/eric/tools/css/reset/ - free CSS Reset sheet that should cover most common issues
 
 ## Videos
 * https://www.youtube.com/watch?v=UB1O30fR-EE&app=desktop - Traversy Media Introductory video to HTML. Traversy Media is a great resource for all things web dev. 

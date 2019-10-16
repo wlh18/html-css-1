@@ -46,7 +46,7 @@
 * Student can describe the difference between px, %, vh/vw, em, and rem (?)
 * Student can use the float property
 * Student can use and describe a reset file
-* Student can understand and utilize a mockup 
+* Student can understand and utilize a mockup (?)
 * Student can visualize HTML/CSS in terms of boxes/containers (?)
 
 </details>

@@ -919,7 +919,7 @@ Mockups can be as simple as a sketch on paper or a "wireframe",  or as complicat
     <summary>Simple Wireframe Mockup</summary>
     
   ![simple-wireframe-example](/images/wireframe.jpeg)
-</details
+</details>
 
 
 <details>

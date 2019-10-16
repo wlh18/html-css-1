@@ -918,15 +918,19 @@ Mockups can be as simple as a sketch on paper or a "wireframe",  or as complicat
 <details>
     <summary>Simple Wireframe Mockup</summary>
     
+    ![simple-wireframe-example](/images/wireframe.png)
 </details
 
 <details>
     <summary>Abstract Mockup</summary>
     
+    ![abstract-mockup-example](/images/mockup-abstract.png)
 </details
 
 <details>
     <summary>High Fidelity Mockup</summary>
+
+    ![mockup-detailed](/images/mockup-detailed.png)
     
 </details
 

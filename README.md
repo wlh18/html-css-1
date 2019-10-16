@@ -4,7 +4,7 @@
     1. [HTML](#HTML)
     1. [CSS](#CSS)
 1. [Additional Resources](#additional-resources)
-1. [HTML/CSS I Mini Project](#HTMLCSS-I-Mini-Project)
+1. [HTML/CSS I Mini Project - None for today](#HTMLCSS-I-Mini-Project)
 1. [HTML/CSS I Afternoon Project](#HTMLCSS-I-Afternoon-Project)
 
 # Student Learning Objectives
@@ -853,10 +853,6 @@ Here's a brief overview of some of the background properties:
 
 # Additional Resources
 
-# HTML/CSS I Mini Project
-
-
-
 # HTML/CSS I Afternoon Project
-
+https://github.com/DevMountain/html-layout
 

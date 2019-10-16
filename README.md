@@ -976,8 +976,7 @@ Similarly, any page, and even mockups, can be broken down in reverse. Here's an 
   <img src="/images/postBoxes1.jpg" width="400">
 </p>
     
- </details>
- 
+ </details> 
  
 <details>
     <summary>Step 2</summary>
@@ -989,7 +988,6 @@ Similarly, any page, and even mockups, can be broken down in reverse. Here's an 
     
  </details>
  
- 
 <details>
     <summary>Step 3</summary>
     
@@ -998,7 +996,6 @@ Similarly, any page, and even mockups, can be broken down in reverse. Here's an 
   <img src="/images/postBoxes3.jpg" width="400">
 </p>
  </details>
- 
  
 <details>
     <summary>Step 4</summary>
@@ -1009,23 +1006,12 @@ Similarly, any page, and even mockups, can be broken down in reverse. Here's an 
 </p>
  </details>
  
- 
 <details>
     <summary>Step 5</summary>
     
 <p align="center">
   <img src="/images/WebPagePart5.jpg" width="400">
   <img src="/images/postBoxes5.jpg" width="400">
-</p>
- </details>
- 
- 
-<details>
-    <summary>Step 6</summary>
-    
-<p align="center">
-  <img src="/images/WebPagePart6.jpg" width="400">
-  <img src="/images/postBoxes6.jpg" width="400">
 </p>
  </details>
 

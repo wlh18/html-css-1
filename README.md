@@ -887,7 +887,9 @@ Here's a brief overview of some of the background properties:
 
 CSS has a number of units for expressing length, and they fall into two main categories, "absolute" and "relative" units. 
 
-#### Absolute Units
+<details>
+    <summary>Absolute Units</summary>
+    
 * `cm` - centimeters
 * `mm` - millimeters
 * `in` - inches (1in = 96px = 2.54cm)
@@ -895,13 +897,16 @@ CSS has a number of units for expressing length, and they fall into two main cat
 >Note: `px` is the most commonly used of the absolute units.
 * `pt` - points (1pt = 1/72 of 1in)
 * `pc` - picas (1pc = 12 pt)
+</details>
 
-#### Relative Units
+<details>
+    <summary>Relative Units</summary>
 * `em` - Relative to the font-size of the element (2em means 2 times the size of the current font)	
 * `rem` - Relative to font-size of the root element	
 * `vw` - Relative to 1% of the width of the viewport*	
 * `vh` - Relative to 1% of the height of the viewport*	
 * `%` - Relative to the parent element
+</details>
 
 # Additional Resources
 

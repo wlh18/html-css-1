@@ -937,7 +937,7 @@ Mockups can be as simple as a sketch on paper or a "wireframe",  or as complicat
 
 ### Visualizing HTML/CSS
 
-Beginner developers often struggle with bridging the gap between a mockup, and writing actual code. One helpful approach is to visualize HTML/CSS in terms of boxes and containers. Examine the following code: 
+Beginner developers often struggle with bridging the gap between a mockup and writing actual code. One helpful approach is to visualize HTML/CSS in terms of boxes and containers. Examine the following code: 
 
 ```html
 <body>

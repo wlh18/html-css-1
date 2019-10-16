@@ -957,18 +957,33 @@ The above code can be visualized as the following:
 
 Similarly, any page, and even mockups, can be broken down in reverse. Here's an example of breaking down the anatomy of a Facebook post:
 
-Starting point:
+<details>
+<summary>Starting point</summary>
 
+<p align="center">
+  <img src="/images/FBPost.PNG" width="400">
+</p>
 
+</details>
 
 <details>
     <summary>Step 1</summary>
+
+<p align="center">
+  <img src="/images/WebPagePart1.jpg" width="400">
+  <img src="/images/postBoxes1.jpg" width="400">
+</p>
     
  </details>
  
  
 <details>
     <summary>Step 2</summary>
+
+<p align="center">
+  <img src="/images/WebPagePart2.jpg" width="400">
+  <img src="/images/postBoxes2.jpg" width="400">
+</p>
     
  </details>
  
@@ -976,26 +991,41 @@ Starting point:
 <details>
     <summary>Step 3</summary>
     
+<p align="center">
+  <img src="/images/WebPagePart3.jpg" width="400">
+  <img src="/images/postBoxes3.jpg" width="400">
+</p>
  </details>
  
  
 <details>
     <summary>Step 4</summary>
     
+<p align="center">
+  <img src="/images/WebPagePart4.jpg" width="400">
+  <img src="/images/postBoxes4.jpg" width="400">
+</p>
  </details>
  
  
 <details>
     <summary>Step 5</summary>
     
+<p align="center">
+  <img src="/images/WebPagePart5.jpg" width="400">
+  <img src="/images/postBoxes5.jpg" width="400">
+</p>
  </details>
  
  
 <details>
     <summary>Step 6</summary>
     
+<p align="center">
+  <img src="/images/WebPagePart6.jpg" width="400">
+  <img src="/images/postBoxes6.jpg" width="400">
+</p>
  </details>
-
 
 # Additional Resources
 

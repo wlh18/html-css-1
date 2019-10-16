@@ -35,9 +35,10 @@
 
 * Student can describe what CSS is
 * Student can use CSS selectors (element, id, class) to style elements (?)
-* Student can bring in and use a new font in a project
+* Student can use CSS pseudo-classes to style elements (?)
 * Student can can use group, descendant, child, and sibling combinators to style elements (?)
 * Student can use the font, color, and background-color properties (?)
+* Student can bring in and use a new font in a project
 * Student can use text-align property
 * Student can use background property to specify colors or images used for backgrounds
 * Student can describe the box-model (?)

@@ -813,6 +813,7 @@ Example CSS:
 ```
 
 Result: 
+
 ![box-sizing-comparison](/images/box-sizing.png)
 
 ### Reset CSS

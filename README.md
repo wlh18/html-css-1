@@ -911,6 +911,7 @@ CSS has a number of units for expressing length, and they fall into two main cat
 
 <details>
     <summary>Relative Units</summary>
+    
 * `em` - Relative to the font-size of the element (2em means 2 times the size of the current font)	
 * `rem` - Relative to font-size of the root element	
 * `vw` - Relative to 1% of the width of the viewport*	

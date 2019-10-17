@@ -13,10 +13,10 @@
 <details open>
     <summary>HTML</summary>
 
-* Student can describe and create an HTML file (?)
+* Student can describe and create an HTML file (new)
 * Student can use the head tag to insert meta information about the page
-* Student can insert comments in HTML (?)
-* Student can change the title and icon of their webpage (?)
+* Student can insert comments in HTML (new)
+* Student can change the title and icon of their webpage (new)
 * Student can use the body tag to specify what will be displayed
 * Student can use div, p, h1-h6, and span tags to layout a flow of information
 * Student can use ol, ul, and li tags
@@ -24,9 +24,9 @@
 * Student can use img tags to bring in pictures
 * Student can use a tags to route to another webpage
 * Student can use link tags to bring in CSS files
-* Student can use and describe inline, inline-block, and block level elements (?)
-* Student can use the class and id attributes (?)
-* Student can utilize and understand the benefits of semantic HTML (?)
+* Student can use and describe inline, inline-block, and block level elements (new)
+* Student can use the class and id attributes (new)
+* Student can utilize and understand the benefits of semantic HTML (new)
 
 </details>
 
@@ -34,21 +34,21 @@
     <summary>CSS</summary>
 
 * Student can describe what CSS is
-* Student can use CSS selectors (element, id, class) to style elements (?)
-* Student can use CSS pseudo-classes to style elements (?)
-* Student can can use group, descendant, child, and sibling combinators to style elements (?)
-* Student can use the font, color, and background-color properties (?)
+* Student can use CSS selectors (element, id, class) to style elements (new)
+* Student can use CSS pseudo-classes to style elements (new)
+* Student can can use group, descendant, child, and sibling combinators to style elements (new)
+* Student can use the font, color, and background-color properties (new)
 * Student can bring in and use a new font in a project
 * Student can use text-align property
 * Student can use background property to specify colors or images used for backgrounds
-* Student can describe the box-model (?)
-* Student can explain box-sizing: border-box (?)
+* Student can describe the box-model (new)
+* Student can explain box-sizing: border-box (new)
 * Student can use height, width, margin, padding, and box-sizing properties
-* Student can describe the difference between px, %, vh/vw, em, and rem (?)
+* Student can describe the difference between px, %, vh/vw, em, and rem (new)
 * Student can use the float property
 * Student can use and describe a reset file
-* Student can understand and utilize a mockup (?)
-* Student can visualize HTML/CSS in terms of boxes/containers (?)
+* Student can understand and utilize a mockup (new)
+* Student can visualize HTML/CSS in terms of boxes/containers (new)
 
 </details>
 

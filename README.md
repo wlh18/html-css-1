@@ -1044,6 +1044,7 @@ Similarly, any page, and even mockups, can be broken down in reverse. Here's an 
 >Note: Students are strongly encouraged to watch both of these videos over the weekend to review and strengthen their foundation in HTML/CSS
 
 ## Articles
+* https://matthewjamestaylor.com/bottom-footer - getting footers to stay at the bottom of a page is a notoriously difficult task for junior front-end developers. See this article for a guide on getting your footer on the bottom of a page.
 * https://blog.benmyers.dev/clickable-divs/ - article covering why developers shouldn't create "clickable" divs, and should instead practice using buttons
 * https://hacks.mozilla.org/2015/03/understanding-inline-box-model/ - great article covering `inline` elements in depth
 * https://www.impressivewebs.com/difference-block-inline-css/ - article covering the differences between `inline` and `block` elements

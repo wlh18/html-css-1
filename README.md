@@ -7,8 +7,8 @@
     1. [CSS](#CSS)
     1. [Visualizing HTML/CSS](#Visualizing-HTMLCSS)
 1. [Additional Resources](#additional-resources)
-1. [HTML/CSS I Mini Project](#HTMLCSS-I-Mini-Project)
-1. [HTML/CSS I Afternoon Project](#HTMLCSS-I-Afternoon-Project)
+1. [HTML/CSS 1 Mini Project](#HTMLCSS-1-Mini-Project)
+1. [HTML/CSS 1 Afternoon Project](#HTMLCSS-1-Afternoon-Project)
 
 # Student Learning Objectives
 
@@ -54,7 +54,7 @@
 
 </details>
 
-# HTML/CSS I Lecture Notes
+# HTML/CSS 1 Lecture Notes
 
 <details open>
     <summary>Lecture Introduction</summary>
@@ -1061,9 +1061,9 @@ Similarly, any page, and even mockups, can be broken down in reverse. Here's an 
 ## Extensions
 * https://chrome.google.com/webstore/detail/eye-dropper/hmdcmlfkchdmnmnmheododdhjedfccka?hl=en - Eye Dropper: Useful tool for picking out colors from a web page.
 
-# HTML/CSS I Mini Project
+# HTML/CSS 1 Mini Project
 https://github.com/DevMountain/HTML-CSS-Practice-Problems
 
-# HTML/CSS I Afternoon Project
+# HTML/CSS 1 Afternoon Project
 https://github.com/DevMountain/html-layout
 

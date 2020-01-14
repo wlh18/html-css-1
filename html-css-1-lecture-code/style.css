@@ -1,0 +1,67 @@
+/* * {
+   margin: 0;
+   padding: 0; 
+} */
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+}
+
+body {
+    background-color: blanchedalmond;
+    color: rebeccapurple;
+}
+
+.header {
+    color: indianred;
+}
+
+#main {
+    color: chartreuse;
+}
+
+.button {
+    background-color: hotpink;
+}
+
+button:hover {
+    background-color: cadetblue;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: burlywood;
+    /* border-style: solid;
+    border-width: 2px;
+    border-color: red; */
+    border: solid 2px red;
+    /* padding-left: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px; */
+    padding: 10x;
+    /* margin-top: 10px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    margin-right: 50px; */
+    margin: 10px 50px; 
+    text-align: center;
+}
+
+.border-box {
+    box-sizing: border-box;
+}
+
+.circle {
+    height: 100px;
+    width: 100px;
+    background-color: cyan;
+    border-radius: 50%;
+}
+

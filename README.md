@@ -772,7 +772,7 @@ CSS Specificity refers to a set of rules that browsers use to determine which st
 
 `Element selector` - 1pt. 
 
-`!important` - Can be used to override all other denoted styles. You should avoid using `!important` at all costs, as it can make debugging CSS considerably more difficult. It is better to sort out where your styling is coming from rather than resport to `!important`.
+`!important` - Can be used to override all other denoted styles. You should avoid using `!important` at all costs, as it can make debugging CSS considerably more difficult. It is better to sort out where styling is coming from rather than resort to `!important` when dealing with undesirable effects.
 
 >Note: Universal selectors, combinators (>, +, etc.) have no effect on CSS specificity. 
 </details>

@@ -14,7 +14,7 @@
 
 <details open>
     <summary>HTML</summary>
-
+    
 * Student can describe and create an HTML file (new)
 * Student can use the head tag to insert meta information about the page
 * Student can insert comments in HTML (new)

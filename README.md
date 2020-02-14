@@ -2,7 +2,7 @@
 
 ## Slideshow: https://slides.com/matias_perez/html-css-one#/
 
-1. [HTML/CSS I Lecture Notes](#HTMLCSS-I-Lecture-Notes)
+1. [HTML/CSS 1 Lecture Notes](#HTMLCSS-1-Lecture-Notes)
     1. [HTML](#HTML)
     1. [CSS](#CSS)
     1. [Visualizing HTML/CSS](#Visualizing-HTMLCSS)

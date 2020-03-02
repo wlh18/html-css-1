@@ -1,6 +1,6 @@
 # Lesson Sections
 
-## Slideshow: https://slides.com/matias_perez/html-css-one#/
+## Slideshow: https://slides.com/awestenskow/html-css-i#/
 
 1. [HTML/CSS 1 Lecture Notes](#HTMLCSS-1-Lecture-Notes)
     1. [HTML](#HTML)
